@@ -245,6 +245,31 @@ function Index() {
               <br />
               233 63 Bara
             </a>
+            <p className="label-caps mt-8 text-cerise">Öppettider</p>
+            <p className="mt-5 text-forest">
+              Fredag–söndag kl. 10–21
+              <span className="mt-2 block text-sm text-muted-foreground">
+                Tiderna kan variera – följ mig på{" "}
+                <a
+                  className="underline underline-offset-4 transition-colors hover:text-cerise"
+                  href="https://www.instagram.com/blomra.se/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Instagram
+                </a>{" "}
+                eller{" "}
+                <a
+                  className="underline underline-offset-4 transition-colors hover:text-cerise"
+                  href="https://www.facebook.com/blomra"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Facebook
+                </a>{" "}
+                för uppdateringar.
+              </span>
+            </p>
           </div>
           <div>
             <p className="label-caps text-cerise">Följ mig</p>
