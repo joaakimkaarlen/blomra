@@ -9,6 +9,11 @@ import workCreamDahlia from "@/assets/work-cream-dahlia.jpg.asset.json";
 import workPoppies from "@/assets/work-poppies.jpg.asset.json";
 import workMossWild from "@/assets/work-moss-wild.jpg.asset.json";
 import workPeachTureen from "@/assets/work-peach-tureen.jpg.asset.json";
+import funeralWreath from "@/assets/funeral-wreath.webp.asset.json";
+import funeralWinter from "@/assets/funeral-winter.jpg.asset.json";
+import funeralBlue from "@/assets/funeral-blue.jpg.asset.json";
+import funeralUrn from "@/assets/funeral-urn.jpg.asset.json";
+import funeralWhite from "@/assets/funeral-white.jpg.asset.json";
 import workBridesCascade from "@/assets/work-brides-cascade.jpg.asset.json";
 import workRoseBox from "@/assets/work-rose-box.jpg.asset.json";
 import workPastelBouquet from "@/assets/work-pastel-bouquet.jpg.asset.json";
@@ -266,6 +271,41 @@ function Index() {
               </figcaption>
             </figure>
           ))}
+        </div>
+      </section>
+
+      {/* Begravning */}
+      <section id="begravning" className="bg-blush">
+        <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+          <p className="label-caps text-cerise">Med omsorg & respekt</p>
+          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
+            Begravning
+          </h2>
+          <p className="mt-5 max-w-xl text-muted-foreground">
+            Att ta avsked är svårt. Jag skapar kistdekorationer, kransar,
+            urndekorationer och buketter med omsorg – personligt formade
+            efter minnet av den som gått bort.
+          </p>
+          <div className="mt-12 grid gap-4 sm:gap-5 lg:grid-cols-4">
+            {funerals.map((f) => (
+              <figure
+                key={f.caption}
+                className={f.span ? `lg:col-span-2 ${f.span}` : ""}
+              >
+                <img
+                  src={f.src.url}
+                  alt={f.alt}
+                  width={f.w}
+                  height={f.h}
+                  loading="lazy"
+                  className="w-full rounded-sm"
+                />
+                <figcaption className="label-caps mt-3 text-muted-foreground">
+                  {f.caption}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
         </div>
       </section>
 
