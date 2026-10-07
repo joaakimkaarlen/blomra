@@ -370,8 +370,9 @@ function Index() {
             </h2>
             <p className="mt-6 max-w-md text-lg text-blush/80">
               Jag erbjuder workshops där ni tillsammans med ett härligt gäng får lära er
-              binda exempelvis kransar med mig. Perfekt för vennmiddagar, företagsevent,
-              möhippor och alla andra tillfällen som förtjänar blommor och gemenskap.
+              binda exempelvis kransar med mig. Perfekt för middagar med vänner,
+              företagsevent, möhippor och alla andra tillfällen som förtjänar blommor
+              och gemenskap.
             </p>
             <div className="mt-8 max-w-md rounded-sm border border-blush/30 bg-forest-deep/50 p-6">
               <p className="label-caps text-blush-deep">Höstens workshops</p>
