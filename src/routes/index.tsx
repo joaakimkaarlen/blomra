@@ -68,11 +68,11 @@ const offerings = [
 
 const works = [
   {
-    src: workPinkDahlia,
-    alt: "Bukett med ceriseröd dahlia, anthurium och vit riddarsporre",
-    caption: "Cerise & anthurium",
-    w: 900,
-    h: 1200,
+    src: workPeachTureen,
+    alt: "Antik skål med persikorosor, nejlikor och lövkvistar",
+    caption: "Persikotoner i antik skål",
+    w: 1500,
+    h: 1000,
   },
   {
     src: workDahliaLilac,
@@ -237,15 +237,18 @@ function Index() {
       </section>
 
       {/* Photo band */}
-      <div className="mx-auto max-w-6xl px-6">
-        <img
-          src={workPeachTureen.url}
-          alt="Antik skål med persikorosor, nejlikor och lövkvistar"
-          width={1500}
-          height={1000}
-          loading="lazy"
-          className="h-[240px] w-full rounded-sm object-cover sm:h-[380px]"
-        />
+      <div className="bg-blush">
+        <div className="mx-auto flex max-w-6xl flex-col items-center px-6 py-10 sm:py-14">
+          <img
+            src={workPinkDahlia.url}
+            alt="Handbukett med ceriseröd dahlia, rosa nejlikor, anthurium och vit riddarsporre"
+            width={1440}
+            height={1920}
+            loading="lazy"
+            className="h-[300px] w-auto rounded-sm sm:h-[480px]"
+          />
+          <p className="label-caps mt-5 text-cerise">Cerise & anthurium</p>
+        </div>
       </div>
 
       {/* Erbjudanden */}
