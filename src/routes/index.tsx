@@ -234,7 +234,7 @@ function Index() {
                 </a>
               </li>
             </ul>
-            <p className="label-caps mt-8 text-cerise">Besök & bo</p>
+            <p className="label-caps mt-8 text-cerise">Besök boden</p>
             <a
               className="mt-5 block text-forest transition-colors hover:text-cerise"
               href="https://www.google.com/maps/search/?api=1&query=Joachim+Becks+gata+12+233+63+Bara"
