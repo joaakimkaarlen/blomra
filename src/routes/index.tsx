@@ -156,6 +156,9 @@ function Index() {
             <a className="transition-colors hover:text-cerise" href="#erbjudanden">
               Erbjudanden
             </a>
+            <a className="transition-colors hover:text-cerise" href="#verk">
+              Verk
+            </a>
             <a className="transition-colors hover:text-cerise" href="#workshops">
               Workshops
             </a>
@@ -233,6 +236,35 @@ function Index() {
               <p className="mt-3 max-w-md text-muted-foreground">{o.body}</p>
               <span className="mt-6 block h-px w-10 bg-forest/25 transition-all duration-300 group-hover:w-24 group-hover:bg-cerise" />
             </article>
+          ))}
+        </div>
+      </section>
+
+      {/* Ur Blomras verk */}
+      <section id="verk" className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+        <p className="label-caps text-cerise">Buketter & arrangemang</p>
+        <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
+          Ur Blomras verk
+        </h2>
+        <p className="mt-5 max-w-xl text-muted-foreground">
+          Ett litet urval av buketter och arrangemang som skapats i Blomras
+          anda – ofta med säsongens bästa blommor.
+        </p>
+        <div className="mt-12 columns-2 gap-4 sm:gap-5 lg:columns-3">
+          {works.map((w) => (
+            <figure key={w.caption} className="mb-4 break-inside-avoid sm:mb-5">
+              <img
+                src={w.src.url}
+                alt={w.alt}
+                width={w.w}
+                height={w.h}
+                loading="lazy"
+                className="w-full rounded-sm"
+              />
+              <figcaption className="label-caps mt-3 text-muted-foreground">
+                {w.caption}
+              </figcaption>
+            </figure>
           ))}
         </div>
       </section>
