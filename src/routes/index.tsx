@@ -156,6 +156,7 @@ const funerals = [
     caption: "Vinterlig kistdekoration",
     w: 900,
     h: 1200,
+    span: false,
   },
   {
     src: funeralBlue,
@@ -163,6 +164,7 @@ const funerals = [
     caption: "Blått & vitt",
     w: 900,
     h: 1200,
+    span: false,
   },
   {
     src: funeralUrn,
@@ -170,6 +172,7 @@ const funerals = [
     caption: "Urndekoration",
     w: 900,
     h: 1200,
+    span: false,
   },
   {
     src: funeralWhite,
@@ -177,6 +180,7 @@ const funerals = [
     caption: "Ljust farväl",
     w: 900,
     h: 1200,
+    span: false,
   },
 ];
 
