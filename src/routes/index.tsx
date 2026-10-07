@@ -2,6 +2,16 @@ import { createFileRoute } from "@tanstack/react-router";
 import logoAsset from "@/assets/blomra-logo.png.asset.json";
 import hero from "@/assets/hero-anemones.jpg";
 import workshop from "@/assets/workshop.jpg";
+import workDahliaLilac from "@/assets/work-dahlia-lilac.jpg.asset.json";
+import workPinkDahlia from "@/assets/work-pink-dahlia.jpg.asset.json";
+import workRedSummer from "@/assets/work-red-summer.jpg.asset.json";
+import workCreamDahlia from "@/assets/work-cream-dahlia.jpg.asset.json";
+import workPoppies from "@/assets/work-poppies.jpg.asset.json";
+import workMossWild from "@/assets/work-moss-wild.jpg.asset.json";
+import workPeachTureen from "@/assets/work-peach-tureen.jpg.asset.json";
+import workBridesCascade from "@/assets/work-brides-cascade.jpg.asset.json";
+import workRoseBox from "@/assets/work-rose-box.jpg.asset.json";
+import workPastelBouquet from "@/assets/work-pastel-bouquet.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -53,6 +63,79 @@ const offerings = [
   },
 ];
 
+const works = [
+  {
+    src: workPinkDahlia,
+    alt: "Bukett med ceriseröd dahlia, anthurium och vit riddarsporre",
+    caption: "Cerise & anthurium",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workPeachTureen,
+    alt: "Antik skål med persikorosor, nejlikor och lövkvistar",
+    caption: "Persikotoner i antik skål",
+    w: 1500,
+    h: 1000,
+  },
+  {
+    src: workDahliaLilac,
+    alt: "Bukett med lila och grädde dahlia, nejlikor och rosa omslag",
+    caption: "Dahlia i lila & grädde",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workPoppies,
+    alt: "Glassvas med vallmor i orange, aprikos och vitt samt grönska",
+    caption: "Vallmor i glassvas",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workRedSummer,
+    alt: "Sommarbukett i röda och rosa toner med dahlia och vädd",
+    caption: "Sommarens röda toner",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workMossWild,
+    alt: "Arrangemang i mossa med orange ranunkler, agapant och gräs",
+    caption: "Mossa, ranunkler & agapant",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workCreamDahlia,
+    alt: "Bukett med vit dahlia, rosa grupp och röd anthurium",
+    caption: "Vit dahlia & mjuka toner",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workBridesCascade,
+    alt: "Brudbukett i kaskad med kalla, anthurium och sötvätt",
+    caption: "Brudbukett i kaskad",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workRoseBox,
+    alt: "Gårdbukett i pastell med rosor och eucalyptus på rosa låda",
+    caption: "Rosa presentlåda",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workPastelBouquet,
+    alt: "Brudbukett med pastellrosor och eucalyptus",
+    caption: "Pastellrosor & eucalyptus",
+    w: 900,
+    h: 1200,
+  },
+];
+
 function Index() {
   return (
     <div className="font-sans">
@@ -72,6 +155,9 @@ function Index() {
           <nav className="hidden gap-8 text-sm text-muted-foreground sm:flex">
             <a className="transition-colors hover:text-cerise" href="#erbjudanden">
               Erbjudanden
+            </a>
+            <a className="transition-colors hover:text-cerise" href="#verk">
+              Verk
             </a>
             <a className="transition-colors hover:text-cerise" href="#workshops">
               Workshops
@@ -150,6 +236,35 @@ function Index() {
               <p className="mt-3 max-w-md text-muted-foreground">{o.body}</p>
               <span className="mt-6 block h-px w-10 bg-forest/25 transition-all duration-300 group-hover:w-24 group-hover:bg-cerise" />
             </article>
+          ))}
+        </div>
+      </section>
+
+      {/* Ur Blomras verk */}
+      <section id="verk" className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+        <p className="label-caps text-cerise">Buketter & arrangemang</p>
+        <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
+          Ur Blomras verk
+        </h2>
+        <p className="mt-5 max-w-xl text-muted-foreground">
+          Ett litet urval av buketter och arrangemang som skapats i Blomras
+          anda – ofta med säsongens bästa blommor.
+        </p>
+        <div className="mt-12 columns-2 gap-4 sm:gap-5 lg:columns-3">
+          {works.map((w) => (
+            <figure key={w.caption} className="mb-4 break-inside-avoid sm:mb-5">
+              <img
+                src={w.src.url}
+                alt={w.alt}
+                width={w.w}
+                height={w.h}
+                loading="lazy"
+                className="w-full rounded-sm"
+              />
+              <figcaption className="label-caps mt-3 text-muted-foreground">
+                {w.caption}
+              </figcaption>
+            </figure>
           ))}
         </div>
       </section>
