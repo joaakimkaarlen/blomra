@@ -141,6 +141,45 @@ const works = [
   },
 ];
 
+const funerals = [
+  {
+    src: funeralWreath,
+    alt: "Begravningskrans i pastell med rosor, nejlikor och blå riddarsporre",
+    caption: "Krans i pastell",
+    w: 1500,
+    h: 1000,
+    span: true,
+  },
+  {
+    src: funeralWinter,
+    alt: "Liggande kistdekoration med snödropptor, vita nejlikor och gran",
+    caption: "Vinterlig kistdekoration",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: funeralBlue,
+    alt: "Stående arrangemang i vitt och blått med rosor och eucalyptus",
+    caption: "Blått & vitt",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: funeralUrn,
+    alt: "Urndekoration med dahlia, korn och sommarblommor i kyrkan",
+    caption: "Urndekoration",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: funeralWhite,
+    alt: "Liggande arrangemang i vitt och gult med rosor och eucalyptus",
+    caption: "Ljust farväl",
+    w: 900,
+    h: 1200,
+  },
+];
+
 function Index() {
   return (
     <div className="font-sans">
