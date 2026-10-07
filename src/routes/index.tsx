@@ -2,6 +2,13 @@ import { createFileRoute } from "@tanstack/react-router";
 import logoAsset from "@/assets/blomra-logo.png.asset.json";
 import hero from "@/assets/hero-anemones.jpg";
 import workshop from "@/assets/workshop.jpg";
+import workDahliaLilac from "@/assets/work-dahlia-lilac.jpg.asset.json";
+import workPinkDahlia from "@/assets/work-pink-dahlia.jpg.asset.json";
+import workRedSummer from "@/assets/work-red-summer.jpg.asset.json";
+import workCreamDahlia from "@/assets/work-cream-dahlia.jpg.asset.json";
+import workPoppies from "@/assets/work-poppies.jpg.asset.json";
+import workMossWild from "@/assets/work-moss-wild.jpg.asset.json";
+import workPeachTureen from "@/assets/work-peach-tureen.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -50,6 +57,58 @@ const offerings = [
     title: "Event & workshops",
     body: "Lär er binda exempelvis kransar tillsammans med ett härligt gäng. Bubbel & tilltugg ingår alltid.",
     span: "lg:col-span-3",
+  },
+];
+
+const works = [
+  {
+    src: workPinkDahlia,
+    alt: "Bukett med ceriseröd dahlia, anthurium och vit riddarsporre",
+    caption: "Cerise & anthurium",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workPeachTureen,
+    alt: "Antik skål med persikorosor, nejlikor och lövkvistar",
+    caption: "Persikotoner i antik skål",
+    w: 1500,
+    h: 1000,
+  },
+  {
+    src: workDahliaLilac,
+    alt: "Bukett med lila och grädde dahlia, nejlikor och rosa omslag",
+    caption: "Dahlia i lila & grädde",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workPoppies,
+    alt: "Glassvas med vallmor i orange, aprikos och vitt samt grönska",
+    caption: "Vallmor i glassvas",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workRedSummer,
+    alt: "Sommarbukett i röda och rosa toner med dahlia och vädd",
+    caption: "Sommarens röda toner",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workMossWild,
+    alt: "Arrangemang i mossa med orange ranunkler, agapant och gräs",
+    caption: "Mossa, ranunkler & agapant",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workCreamDahlia,
+    alt: "Bukett med vit dahlia, rosa grupp och röd anthurium",
+    caption: "Vit dahlia & mjuka toner",
+    w: 900,
+    h: 1200,
   },
 ];
 
