@@ -9,6 +9,9 @@ import workCreamDahlia from "@/assets/work-cream-dahlia.jpg.asset.json";
 import workPoppies from "@/assets/work-poppies.jpg.asset.json";
 import workMossWild from "@/assets/work-moss-wild.jpg.asset.json";
 import workPeachTureen from "@/assets/work-peach-tureen.jpg.asset.json";
+import workBridesCascade from "@/assets/work-brides-cascade.jpg.asset.json";
+import workRoseBox from "@/assets/work-rose-box.jpg.asset.json";
+import workPastelBouquet from "@/assets/work-pastel-bouquet.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -107,6 +110,27 @@ const works = [
     src: workCreamDahlia,
     alt: "Bukett med vit dahlia, rosa grupp och röd anthurium",
     caption: "Vit dahlia & mjuka toner",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workBridesCascade,
+    alt: "Brudbukett i kaskad med kalla, anthurium och sötvätt",
+    caption: "Brudbukett i kaskad",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workRoseBox,
+    alt: "Gårdbukett i pastell med rosor och eucalyptus på rosa låda",
+    caption: "Rosa presentlåda",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workPastelBouquet,
+    alt: "Brudbukett med pastellrosor och eucalyptus",
+    caption: "Pastellrosor & eucalyptus",
     w: 900,
     h: 1200,
   },
