@@ -238,16 +238,30 @@ function Index() {
 
       {/* Photo band */}
       <div className="bg-blush">
-        <div className="mx-auto flex max-w-6xl flex-col items-center px-6 py-10 sm:py-14">
+        <div className="mx-auto grid max-w-6xl items-center gap-8 px-6 py-12 sm:py-16 md:grid-cols-2 md:gap-16">
           <img
             src={workPinkDahlia.url}
             alt="Handbukett med ceriseröd dahlia, rosa nejlikor, anthurium och vit riddarsporre"
             width={1440}
             height={1920}
             loading="lazy"
-            className="h-[300px] w-auto rounded-sm sm:h-[480px]"
+            className="mx-auto h-[300px] w-auto rounded-sm sm:h-[440px] md:h-[520px]"
           />
-          <p className="label-caps mt-5 text-cerise">Cerise & anthurium</p>
+          <div className="md:pl-4">
+            <p className="label-caps text-cerise">Cerise & anthurium</p>
+            <p className="mt-4 font-display text-3xl italic leading-snug text-forest sm:text-4xl">
+              Ceriseröd dahlia, glansig anthurium, rosa nejlikor och vit riddarsporre.
+            </p>
+            <p className="mt-5 max-w-md text-muted-foreground">
+              En handbukett från Blomra, lindad i papper och redo att överlämnas.
+            </p>
+            <a
+              href="#verk"
+              className="mt-8 inline-block rounded-full border border-forest/30 px-8 py-3 text-sm uppercase tracking-[0.18em] text-forest transition-colors hover:border-cerise hover:text-cerise"
+            >
+              Se fler verk
+            </a>
+          </div>
         </div>
       </div>
 
