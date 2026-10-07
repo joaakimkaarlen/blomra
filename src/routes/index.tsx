@@ -208,7 +208,7 @@ function Index() {
               bara en bukett till någon du gillar.
             </p>
             <a
-              href="mailto:hej@blomra.se"
+              href="mailto:theresia@blomra.se"
               className="mt-8 inline-block rounded-full bg-primary px-8 py-3 text-sm uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-cerise-deep"
             >
               Skicka ett mejl
@@ -218,27 +218,58 @@ function Index() {
             <p className="label-caps text-cerise">Så når du mig</p>
             <ul className="mt-5 space-y-3 text-forest">
               <li>
-                <a className="transition-colors hover:text-cerise" href="mailto:hej@blomra.se">
-                  hej@blomra.se
+                <a
+                  className="transition-colors hover:text-cerise"
+                  href="mailto:theresia@blomra.se"
+                >
+                  theresia@blomra.se
                 </a>
               </li>
               <li>
-                <a className="transition-colors hover:text-cerise" href="tel:+46700000000">
-                  070-000 00 00
+                <a
+                  className="transition-colors hover:text-cerise"
+                  href="tel:+46735029029"
+                >
+                  +46 73 502 90 29
                 </a>
               </li>
             </ul>
+            <p className="label-caps mt-8 text-cerise">Besök & bo</p>
+            <a
+              className="mt-5 block text-forest transition-colors hover:text-cerise"
+              href="https://www.google.com/maps/search/?api=1&query=Joachim+Becks+gata+12+233+63+Bara"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Joachim Becks gata 12
+              <br />
+              233 63 Bara
+            </a>
           </div>
           <div>
-            <p className="label-caps text-cerise">När</p>
-            <p className="mt-5 text-forest">
-              Tis–Fre 10–18
-              <br />
-              Lör 10–15
-            </p>
-            <p className="mt-3 text-sm text-muted-foreground">
-              Bod och bokningar utanför dessa tider enligt överenskommelse.
-            </p>
+            <p className="label-caps text-cerise">Följ mig</p>
+            <ul className="mt-5 space-y-3 text-forest">
+              <li>
+                <a
+                  className="transition-colors hover:text-cerise"
+                  href="https://www.instagram.com/blomra.se/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Instagram: blomra.se
+                </a>
+              </li>
+              <li>
+                <a
+                  className="transition-colors hover:text-cerise"
+                  href="https://www.facebook.com/blomra"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Facebook: blomra
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </section>

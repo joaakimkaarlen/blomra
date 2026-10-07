@@ -2,9 +2,10 @@
 
 ## Klart
 - Hemsida för Blomra med stor logga, palett vitt/cerise/ljusrosa/mörkgrönt
--五大 erbjudanden: bukettabonnemang, Swish & Grab-bod, bröllop, begravning, event & workshops
-- Riktiga kontaktuppgifter inlagda: Instagram blomra.se, Facebook blomra, +46 73 502 90 29, theresia@blomra.se
+- Fem erbjudanden: bukettabonnemang, Swish & Grab-bod, bröllop, begravning, event & workshops
+- Riktiga kontaktuppgifter: theresia@blomra.se, +46 73 502 90 29, Instagram blomra.se, Facebook blomra
+- Adress: Joachim Becks gata 12, 233 63 Bara
 
 ## Öppna
-- Öppettider saknas – står inte på sidan. Behöver riktiga tider från Theresia.
-- Adress / var Swish & Grab-boden står saknas.
+- Öppettider saknas – visas inte på sidan. Behöver riktiga tider från Theresia om de ska stå med.
+- Eventuella priser på bukettabonnemang och workshops saknas.
