@@ -373,6 +373,19 @@ function Index() {
               binda exempelvis kransar med mig. Perfekt för vennmiddagar, företagsevent,
               möhippor och alla andra tillfällen som förtjänar blommor och gemenskap.
             </p>
+            <div className="mt-8 max-w-md rounded-sm border border-blush/30 bg-forest-deep/50 p-6">
+              <p className="label-caps text-blush-deep">Höstens workshops</p>
+              <ul className="mt-3 space-y-2 text-blush">
+                <li className="flex items-baseline justify-between gap-4">
+                  <span>Höstkrans</span>
+                  <span className="font-display text-xl">619 kr</span>
+                </li>
+                <li className="flex items-baseline justify-between gap-4">
+                  <span>Vinter- och julkrans</span>
+                  <span className="font-display text-xl">619 kr</span>
+                </li>
+              </ul>
+            </div>
             <a
               href="#kontakt"
               className="mt-9 inline-block rounded-full bg-primary px-8 py-3 text-sm uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-blush hover:text-forest"
