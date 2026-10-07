@@ -9,6 +9,11 @@ import workCreamDahlia from "@/assets/work-cream-dahlia.jpg.asset.json";
 import workPoppies from "@/assets/work-poppies.jpg.asset.json";
 import workMossWild from "@/assets/work-moss-wild.jpg.asset.json";
 import workPeachTureen from "@/assets/work-peach-tureen.jpg.asset.json";
+import funeralWreath from "@/assets/funeral-wreath.webp.asset.json";
+import funeralWinter from "@/assets/funeral-winter.jpg.asset.json";
+import funeralBlue from "@/assets/funeral-blue.jpg.asset.json";
+import funeralUrn from "@/assets/funeral-urn.jpg.asset.json";
+import funeralWhite from "@/assets/funeral-white.jpg.asset.json";
 import workBridesCascade from "@/assets/work-brides-cascade.jpg.asset.json";
 import workRoseBox from "@/assets/work-rose-box.jpg.asset.json";
 import workPastelBouquet from "@/assets/work-pastel-bouquet.jpg.asset.json";
@@ -133,6 +138,49 @@ const works = [
     caption: "Pastellrosor & eucalyptus",
     w: 900,
     h: 1200,
+  },
+];
+
+const funerals = [
+  {
+    src: funeralWreath,
+    alt: "Begravningskrans i pastell med rosor, nejlikor och blå riddarsporre",
+    caption: "Krans i pastell",
+    w: 1500,
+    h: 1000,
+    span: true,
+  },
+  {
+    src: funeralWinter,
+    alt: "Liggande kistdekoration med snödropptor, vita nejlikor och gran",
+    caption: "Vinterlig kistdekoration",
+    w: 900,
+    h: 1200,
+    span: false,
+  },
+  {
+    src: funeralBlue,
+    alt: "Stående arrangemang i vitt och blått med rosor och eucalyptus",
+    caption: "Blått & vitt",
+    w: 900,
+    h: 1200,
+    span: false,
+  },
+  {
+    src: funeralUrn,
+    alt: "Urndekoration med dahlia, korn och sommarblommor i kyrkan",
+    caption: "Urndekoration",
+    w: 900,
+    h: 1200,
+    span: false,
+  },
+  {
+    src: funeralWhite,
+    alt: "Liggande arrangemang i vitt och gult med rosor och eucalyptus",
+    caption: "Ljust farväl",
+    w: 900,
+    h: 1200,
+    span: false,
   },
 ];
 
@@ -269,6 +317,41 @@ function Index() {
         </div>
       </section>
 
+      {/* Begravning */}
+      <section id="begravning" className="bg-blush">
+        <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+          <p className="label-caps text-cerise">Med omsorg & respekt</p>
+          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
+            Begravning
+          </h2>
+          <p className="mt-5 max-w-xl text-muted-foreground">
+            Att ta avsked är svårt. Jag skapar kistdekorationer, kransar,
+            urndekorationer och buketter med omsorg – personligt formade
+            efter minnet av den som gått bort.
+          </p>
+          <div className="mt-12 grid gap-4 sm:gap-5 lg:grid-cols-4">
+            {funerals.map((f) => (
+              <figure
+                key={f.caption}
+                className={f.span ? `lg:col-span-2 ${f.span}` : ""}
+              >
+                <img
+                  src={f.src.url}
+                  alt={f.alt}
+                  width={f.w}
+                  height={f.h}
+                  loading="lazy"
+                  className="w-full rounded-sm"
+                />
+                <figcaption className="label-caps mt-3 text-muted-foreground">
+                  {f.caption}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Workshops */}
       <section id="workshops" className="bg-forest text-forest-foreground">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-2">
@@ -287,9 +370,23 @@ function Index() {
             </h2>
             <p className="mt-6 max-w-md text-lg text-blush/80">
               Jag erbjuder workshops där ni tillsammans med ett härligt gäng får lära er
-              binda exempelvis kransar med mig. Perfekt för vennmiddagar, företagsevent,
-              möhippor och alla andra tillfällen som förtjänar blommor och gemenskap.
+              binda exempelvis kransar med mig. Perfekt för middagar med vänner,
+              företagsevent, möhippor och alla andra tillfällen som förtjänar blommor
+              och gemenskap.
             </p>
+            <div className="mt-8 max-w-md rounded-sm border border-blush/30 bg-forest-deep/50 p-6">
+              <p className="label-caps text-blush-deep">Höstens workshops</p>
+              <ul className="mt-3 space-y-2 text-blush">
+                <li className="flex items-baseline justify-between gap-4">
+                  <span>Höstkrans</span>
+                  <span className="font-display text-xl">619 kr</span>
+                </li>
+                <li className="flex items-baseline justify-between gap-4">
+                  <span>Vinter- och julkrans</span>
+                  <span className="font-display text-xl">619 kr</span>
+                </li>
+              </ul>
+            </div>
             <a
               href="#kontakt"
               className="mt-9 inline-block rounded-full bg-primary px-8 py-3 text-sm uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-blush hover:text-forest"
