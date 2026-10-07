@@ -75,13 +75,6 @@ const works = [
     h: 1200,
   },
   {
-    src: workPeachTureen,
-    alt: "Antik skål med persikorosor, nejlikor och lövkvistar",
-    caption: "Persikotoner i antik skål",
-    w: 1500,
-    h: 1000,
-  },
-  {
     src: workDahliaLilac,
     alt: "Bukett med lila och grädde dahlia, nejlikor och rosa omslag",
     caption: "Dahlia i lila & grädde",
@@ -127,13 +120,6 @@ const works = [
     src: workRoseBox,
     alt: "Gårdbukett i pastell med rosor och eucalyptus på rosa låda",
     caption: "Rosa presentlåda",
-    w: 900,
-    h: 1200,
-  },
-  {
-    src: workPastelBouquet,
-    alt: "Brudbukett med pastellrosor och eucalyptus",
-    caption: "Pastellrosor & eucalyptus",
     w: 900,
     h: 1200,
   },
