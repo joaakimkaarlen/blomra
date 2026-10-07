@@ -1,7 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import logoAsset from "@/assets/blomra-logo.png.asset.json";
-import hero from "@/assets/hero-anemones.jpg";
-import workshop from "@/assets/workshop.jpg";
 import workDahliaLilac from "@/assets/work-dahlia-lilac.jpg.asset.json";
 import workPinkDahlia from "@/assets/work-pink-dahlia.jpg.asset.json";
 import workRedSummer from "@/assets/work-red-summer.jpg.asset.json";
@@ -77,13 +75,6 @@ const works = [
     h: 1200,
   },
   {
-    src: workPeachTureen,
-    alt: "Antik skål med persikorosor, nejlikor och lövkvistar",
-    caption: "Persikotoner i antik skål",
-    w: 1500,
-    h: 1000,
-  },
-  {
     src: workDahliaLilac,
     alt: "Bukett med lila och grädde dahlia, nejlikor och rosa omslag",
     caption: "Dahlia i lila & grädde",
@@ -129,13 +120,6 @@ const works = [
     src: workRoseBox,
     alt: "Gårdbukett i pastell med rosor och eucalyptus på rosa låda",
     caption: "Rosa presentlåda",
-    w: 900,
-    h: 1200,
-  },
-  {
-    src: workPastelBouquet,
-    alt: "Brudbukett med pastellrosor och eucalyptus",
-    caption: "Pastellrosor & eucalyptus",
     w: 900,
     h: 1200,
   },
@@ -255,10 +239,10 @@ function Index() {
       {/* Photo band */}
       <div className="mx-auto max-w-6xl px-6">
         <img
-          src={hero}
-          alt="Bukett av cerisefärgade anemoner och ljusrosa ranunkler"
-          width={1600}
-          height={900}
+          src={workPeachTureen.url}
+          alt="Antik skål med persikorosor, nejlikor och lövkvistar"
+          width={1500}
+          height={1000}
           loading="lazy"
           className="h-[240px] w-full rounded-sm object-cover sm:h-[380px]"
         />
@@ -356,9 +340,9 @@ function Index() {
       <section id="workshops" className="bg-forest text-forest-foreground">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-2">
           <img
-            src={workshop}
-            alt="Händer som binder en bukett av cerisefärgade anemoner och ljusrosa rosor"
-            width={1200}
+            src={workPastelBouquet.url}
+            alt="Handbukett i persiko, rosa och grädde"
+            width={900}
             height={1200}
             loading="lazy"
             className="aspect-square w-full rounded-sm object-cover"
