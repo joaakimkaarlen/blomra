@@ -10,7 +10,7 @@ import workPeachTureen from "@/assets/work-peach-tureen.jpg.asset.json";
 import funeralWreath from "@/assets/funeral-wreath.webp.asset.json";
 import funeralWinter from "@/assets/funeral-winter.jpg.asset.json";
 import funeralBlue from "@/assets/funeral-blue.jpg.asset.json";
-import funeralUrn from "@/assets/funeral-urn.jpg.asset.json";
+import funeralUrn from "@/assets/funeral-urn-plain.jpg.asset.json";
 import funeralWhite from "@/assets/funeral-white.jpg.asset.json";
 import workBridesCascade from "@/assets/work-brides-cascade.jpg.asset.json";
 import workRoseBox from "@/assets/work-rose-box.jpg.asset.json";
@@ -178,10 +178,10 @@ const funerals = [
   },
   {
     src: funeralUrn,
-    alt: "Urndekoration med dahlia, korn och sommarblommor i kyrkan",
-    caption: "Urndekoration",
-    w: 900,
-    h: 1200,
+    alt: "Urndekoration i en ljusgrön urna med dahlior i burgundy och persika, vita riddarsporre, kosmos, nejlikor och korn",
+    caption: "Urndekoration i varma toner av sensommar-höst",
+    w: 1536,
+    h: 1734,
     span: false,
   },
   {
@@ -391,7 +391,7 @@ function Index() {
                   loading="lazy"
                   className="w-full rounded-sm"
                 />
-                <figcaption className="label-caps mt-3 text-muted-foreground">
+                <figcaption className="mt-3 text-[0.95rem] leading-snug text-muted-foreground">
                   {f.caption}
                 </figcaption>
               </figure>
