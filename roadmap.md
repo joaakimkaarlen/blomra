@@ -13,5 +13,9 @@
 - Workshopsbilden är foto från höstkrans-workshop (IMG_9136); brudbuketten i vitt & rosa ligger nu i galleriet.
 - Bildtexterna i galleriet är Theresias egna ord (nio stycken), skrivna i vanlig gemener för att de långa ska vara läsbara.
 
+- Priser på bukettabonnemang inlagda: Liten 259 kr, Mellan 379 kr, Stor 499 kr, Lyx 795 kr, fri leverans inom Bara tätort.
+- Swish & Grab-bod nämner även växter och annat smått utifrån säsong, och att Theresia gärna tar hem önskemål.
+- Bildtexter i begravningssektionen: "Stående dekoration" och "Ljust farväl – Liggande bukett".
+
 ## Öppna
-- Priser på bukettabonnemang saknas.
+- Inga öppna punkter just nu.
