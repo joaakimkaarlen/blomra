@@ -365,10 +365,10 @@ function Index() {
       <section id="workshops" className="bg-forest text-forest-foreground">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-2">
           <img
-            src={workPastelBouquet.url}
-            alt="Handbukett i persiko, rosa och grädde"
-            width={900}
-            height={1200}
+            src={workshopHostkrans.url}
+            alt="Händer som binder höstkrans med eukalyptus, hydrangea och ljung på ett dukat workshopbord"
+            width={1440}
+            height={1920}
             loading="lazy"
             className="aspect-square w-full rounded-sm object-cover"
           />
