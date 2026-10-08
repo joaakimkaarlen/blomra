@@ -39,15 +39,33 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const offerings = [
+type Offering = {
+  title: string;
+  body: string;
+  extra?: string;
+  prices?: { label: string; price: string }[];
+  note?: string;
+  span: string;
+};
+
+const offerings: Offering[] = [
   {
     title: "Bukettabonnemang",
     body: "Få hem en vacker bukett varje vecka, var 14:e dag eller en gång i månaden – beroende på vad som passar just ditt liv.",
+    extra: "Floristen skapar bukett utifrån säsong med utvalda kvalitetsblommor. Välj mellan bukettstorlek:",
+    prices: [
+      { label: "Liten", price: "259 kr" },
+      { label: "Mellan", price: "379 kr" },
+      { label: "Stor", price: "499 kr" },
+      { label: "Lyx", price: "795 kr" },
+    ],
+    note: "Fri leverans inom Bara tätort.",
     span: "lg:col-span-2",
   },
   {
     title: "Swish & Grab-bod",
     body: "Här finns bland annat helgbuketter av säsongens utvalda snittblommor. Swisha, plocka med dig och gå.",
+    extra: "Även växter och annat smått utifrån säsong kan finnas. Beror på efterfrågan, men tveka inte att höra av dig om du har ett önskemål om något jag ska ta in – det brukar jag kunna lösa.",
     span: "lg:col-span-2",
   },
   {
@@ -291,6 +309,27 @@ function Index() {
                 {o.title}
               </h3>
               <p className="mt-3 max-w-md text-muted-foreground">{o.body}</p>
+              {o.extra && (
+                <p className="mt-4 max-w-md text-muted-foreground">{o.extra}</p>
+              )}
+              {o.prices && (
+                <dl className="mt-6 max-w-sm border-t border-border">
+                  {o.prices.map((p) => (
+                    <div
+                      key={p.label}
+                      className="flex items-baseline justify-between gap-6 border-b border-border py-2.5"
+                    >
+                      <dt className="label-caps text-forest">{p.label}</dt>
+                      <dd className="font-display text-xl text-forest">
+                        {p.price}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              )}
+              {o.note && (
+                <p className="mt-3 text-sm text-forest/80">{o.note}</p>
+              )}
               <span className="mt-6 block h-px w-10 bg-forest/25 transition-all duration-300 group-hover:w-24 group-hover:bg-cerise" />
             </article>
           ))}
