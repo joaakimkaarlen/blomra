@@ -318,7 +318,7 @@ function Index() {
                 loading="lazy"
                 className="w-full rounded-sm"
               />
-              <figcaption className="label-caps mt-3 text-muted-foreground">
+              <figcaption className="mt-3 text-[0.95rem] leading-snug text-muted-foreground">
                 {w.caption}
               </figcaption>
             </figure>
