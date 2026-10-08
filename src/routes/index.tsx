@@ -78,7 +78,7 @@ const works = [
   {
     src: workDahliaLilac,
     alt: "Bukett med lila och grädde dahlia, nejlikor och rosa omslag",
-    caption: "Bukett Mellan – Sommardröm med dahlior, anthurium, nejlika & riddarsporre",
+    caption: "Bukett Mellan – Sommardröm med dahlior, anthurium, nejlika &\u00A0riddarsporre",
     w: 900,
     h: 1200,
   },
