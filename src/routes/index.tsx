@@ -153,7 +153,7 @@ const funerals = [
   {
     src: funeralBlue,
     alt: "Stående arrangemang i vitt och blått med rosor och eucalyptus",
-    caption: "Blått & vitt",
+    caption: "Stående dekoration",
     w: 900,
     h: 1200,
     span: false,
@@ -169,7 +169,7 @@ const funerals = [
   {
     src: funeralWhite,
     alt: "Liggande arrangemang i vitt och gult med rosor och eucalyptus",
-    caption: "Ljust farväl",
+    caption: "Ljust farväl – Liggande bukett",
     w: 900,
     h: 1200,
     span: false,
