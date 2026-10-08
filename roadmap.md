@@ -11,6 +11,7 @@
 - Workshopspriser inlagda: Höstkrans 619 kr, vinter-/julkrans 619 kr.
 - Bildbandet under loggan visar buketten Cerise & anthurium; de AI-genererade bilderna är borttagna.
 - Workshopsbilden är foto från höstkrans-workshop (IMG_9136); brudbuketten i vitt & rosa ligger nu i galleriet.
+- Bildtexterna i galleriet är Theresias egna ord (nio stycken), skrivna i vanlig gemener för att de långa ska vara läsbara.
 
 ## Öppna
 - Priser på bukettabonnemang saknas.
