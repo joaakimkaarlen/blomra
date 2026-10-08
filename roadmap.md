@@ -11,4 +11,5 @@
 - Workshopspriser inlagda: Höstkrans 619 kr, vinter-/julkrans 619 kr.
 
 ## Öppna
+- Workshopsbilden byts till foto från höstkrans-workshop (IMG_9128/9130/9134/9136), brudbuketten flyttas till galleriet.
 - Priser på bukettabonnemang saknas.
