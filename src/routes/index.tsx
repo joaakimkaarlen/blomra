@@ -15,6 +15,7 @@ import funeralWhite from "@/assets/funeral-white.jpg.asset.json";
 import workBridesCascade from "@/assets/work-brides-cascade.jpg.asset.json";
 import workRoseBox from "@/assets/work-rose-box.jpg.asset.json";
 import workPastelBouquet from "@/assets/work-pastel-bouquet.jpg.asset.json";
+import workshopHostkrans from "@/assets/workshop-hostkrans.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -120,6 +121,13 @@ const works = [
     src: workRoseBox,
     alt: "Gårdbukett i pastell med rosor och eucalyptus på rosa låda",
     caption: "Rosa presentlåda",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: workPastelBouquet,
+    alt: "Brudbukett i vitt och rosa med rosor, nejlikor, slöjblommor och eucalyptus",
+    caption: "Brudbukett i vitt & rosa",
     w: 900,
     h: 1200,
   },
@@ -357,10 +365,10 @@ function Index() {
       <section id="workshops" className="bg-forest text-forest-foreground">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-2">
           <img
-            src={workPastelBouquet.url}
-            alt="Handbukett i persiko, rosa och grädde"
-            width={900}
-            height={1200}
+            src={workshopHostkrans.url}
+            alt="Händer som binder höstkrans med eukalyptus, hydrangea och ljung på ett dukat workshopbord"
+            width={1440}
+            height={1920}
             loading="lazy"
             className="aspect-square w-full rounded-sm object-cover"
           />
