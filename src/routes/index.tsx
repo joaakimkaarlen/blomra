@@ -133,6 +133,9 @@ const works = [
     w: 900,
     h: 1200,
   },
+];
+
+const weddings = [
   {
     src: workBridesCascade,
     alt: "Brudbukett i kaskad med kalla, anthurium och sötvätt",
@@ -142,7 +145,7 @@ const works = [
   },
   {
     src: workRoseBox,
-    alt: "Gårdbukett i pastell med rosor och eucalyptus på rosa låda",
+    alt: "Brudbukett i pastell med rosor och eucalyptus på rosa låda",
     caption: "Brudbukett redo för leverans",
     w: 900,
     h: 1200,
@@ -220,7 +223,13 @@ function Index() {
               Erbjudanden
             </a>
             <a className="transition-colors hover:text-cerise" href="#verk">
-              Verk
+              Mina verk
+            </a>
+            <a className="transition-colors hover:text-cerise" href="#brollop">
+              Bröllop
+            </a>
+            <a className="transition-colors hover:text-cerise" href="#begravning">
+              Begravning
             </a>
             <a className="transition-colors hover:text-cerise" href="#workshops">
               Workshops
@@ -264,6 +273,26 @@ function Index() {
               Se vad jag erbjuder
             </a>
           </div>
+          <a
+            href="#workshops"
+            className="mt-10 block w-full max-w-md rounded-sm border border-cerise/30 bg-background/80 p-6 text-left transition-colors hover:border-cerise"
+          >
+            <p className="label-caps text-cerise">Aktuellt just nu</p>
+            <p className="mt-2 font-display text-2xl text-forest">Höstens workshops</p>
+            <ul className="mt-3 space-y-1.5 text-forest">
+              <li className="flex items-baseline justify-between gap-4">
+                <span>Höstkrans</span>
+                <span className="font-display text-lg">619 kr</span>
+              </li>
+              <li className="flex items-baseline justify-between gap-4">
+                <span>Vinter- och julkrans</span>
+                <span className="font-display text-lg">619 kr</span>
+              </li>
+            </ul>
+            <p className="mt-4 text-sm text-muted-foreground">
+              Begränsat antal platser – dags att boka din plats!
+            </p>
+          </a>
         </div>
       </section>
 
@@ -375,6 +404,37 @@ function Index() {
               </figcaption>
             </figure>
           ))}
+        </div>
+      </section>
+
+      {/* Bröllop */}
+      <section id="brollop" className="bg-cerise text-primary-foreground">
+        <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+          <p className="label-caps text-primary-foreground/80">Formgivet tillsammans med er</p>
+          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight sm:text-5xl">
+            Bröllop
+          </h2>
+          <p className="mt-5 max-w-xl text-primary-foreground/90">
+            Jag skapar allt ifrån brudbukett, corsage och större blomsterarrangemang –
+            formgivet tillsammans med er.
+          </p>
+          <div className="mt-12 grid gap-4 sm:grid-cols-3 sm:gap-5">
+            {weddings.map((w) => (
+              <figure key={w.caption}>
+                <img
+                  src={w.src.url}
+                  alt={w.alt}
+                  width={w.w}
+                  height={w.h}
+                  loading="lazy"
+                  className="w-full rounded-sm"
+                />
+                <figcaption className="mt-3 text-[0.95rem] leading-snug text-primary-foreground/90">
+                  {w.caption}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
         </div>
       </section>
 
