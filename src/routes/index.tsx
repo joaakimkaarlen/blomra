@@ -45,6 +45,7 @@ type Offering = {
   extra?: string;
   prices?: { label: string; price: string }[];
   note?: string[];
+  gift?: string;
   span: string;
 };
 
@@ -63,6 +64,7 @@ const offerings: Offering[] = [
       "Leverans/upphämtning sker på torsdagar samt fredagar.",
       "För leverans tillkommer fraktkostnad. Fri leverans inom Bara tätort.",
     ],
+    gift: "Visste du att du också kan ge bort en blomsterprenumeration? Köp ett presentkort hos Blomra – eller mejla uppgifter till den som ska få hämta eller bli levererad en bukett.",
     span: "lg:col-span-2",
   },
   {
@@ -337,6 +339,12 @@ function Index() {
                   {o.note.map((n) => (
                     <p key={n}>{n}</p>
                   ))}
+                </div>
+              )}
+              {o.gift && (
+                <div className="mt-6 max-w-md rounded-sm border border-cerise/25 bg-blush/60 p-5">
+                  <p className="label-caps text-cerise">Ge bort</p>
+                  <p className="mt-2 text-sm leading-snug text-forest">{o.gift}</p>
                 </div>
               )}
               <span className="mt-6 block h-px w-10 bg-forest/25 transition-all duration-300 group-hover:w-24 group-hover:bg-cerise" />
