@@ -275,9 +275,9 @@ function Index() {
           />
           <div className="md:pl-4">
             <p className="label-caps text-cerise">Egenodlat i säsong</p>
-            <p className="mt-4 font-display text-2xl italic leading-snug text-forest sm:text-3xl">
-              Har en mindre blomsterodling där jag driver upp blommor i säsong och
-              försöker använda så närodlat som möjligt i mina verk.
+            <p className="mt-4 font-display text-xl italic leading-snug text-forest sm:text-2xl">
+              Ceriserosa Dahlia – glansig Anthurium – rosa Nejlikor – vit Riddarsporre –
+              lavendelblå Scabiosa
             </p>
             <p className="mt-5 max-w-md text-muted-foreground">
               En handbukett redo att överlämnas – skapad med mina egenodlade blommor i
