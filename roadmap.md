@@ -22,3 +22,4 @@
 
 ## Öppna
 - Betalningsvillkor ska läggas längst ner i bukettabonnemang-stycket – Theresia skickade bara rubriken "Betalningsvillkor:", själva texten saknas.
+- Blomsterprenumeration som gåva: presentkort köpt hos Blomra, eller mejla uppgifter till den som ska få hämta/bli levererad en bukett.
