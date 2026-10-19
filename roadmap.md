@@ -18,6 +18,7 @@
 - Bildtexter i begravningssektionen: "Stående dekoration" och "Ljust farväl – Liggande bukett".
 - Urnbilden är utbytt mot foto utan namn på urnan, text "Urndekoration i varma toner av sensommar-höst".
 - Bildbandet under loggan heter nu "Egenodlat i säsong" och beskriver Theresias blomsterodling och handbuketen av egenodlat + utvalda snittblommor.
+- Leveransvillkor för bukettabonnemang: leverans/upphämtning torsdagar och fredagar, fraktkostnad tillkommer vid leverans, fri leverans inom Bara tätort.
 
 ## Öppna
-- Inga öppna punkter just nu.
+- Betalningsvillkor ska läggas längst ner i bukettabonnemang-stycket – Theresia skickade bara rubriken "Betalningsvillkor:", själva texten saknas.
