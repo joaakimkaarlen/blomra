@@ -17,6 +17,7 @@
 - Swish & Grab-bod nämner även växter och annat smått utifrån säsong, och att Theresia gärna tar hem önskemål.
 - Bildtexter i begravningssektionen: "Stående dekoration" och "Ljust farväl – Liggande bukett".
 - Urnbilden är utbytt mot foto utan namn på urnan, text "Urndekoration i varma toner av sensommar-höst".
+- Bildbandet under loggan heter nu "Egenodlat i säsong" och beskriver Theresias blomsterodling och handbuketen av egenodlat + utvalda snittblommor.
 
 ## Öppna
 - Inga öppna punkter just nu.
