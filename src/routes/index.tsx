@@ -274,12 +274,14 @@ function Index() {
             className="mx-auto h-[300px] w-auto rounded-sm sm:h-[440px] md:h-[520px]"
           />
           <div className="md:pl-4">
-            <p className="label-caps text-cerise">Cerise & anthurium</p>
-            <p className="mt-4 font-display text-3xl italic leading-snug text-forest sm:text-4xl">
-              Ceriseröd dahlia, glansig anthurium, rosa nejlikor och vit riddarsporre.
+            <p className="label-caps text-cerise">Egenodlat i säsong</p>
+            <p className="mt-4 font-display text-2xl italic leading-snug text-forest sm:text-3xl">
+              Har en mindre blomsterodling där jag driver upp blommor i säsong och
+              försöker använda så närodlat som möjligt i mina verk.
             </p>
             <p className="mt-5 max-w-md text-muted-foreground">
-              En handbukett från Blomra, lindad i papper och redo att överlämnas.
+              En handbukett redo att överlämnas – skapad med mina egenodlade blommor i
+              kombination av noga utvalda snittblommor av hög kvalitet.
             </p>
             <a
               href="#verk"
