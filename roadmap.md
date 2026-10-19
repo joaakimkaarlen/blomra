@@ -19,7 +19,7 @@
 - Urnbilden är utbytt mot foto utan namn på urnan, text "Urndekoration i varma toner av sensommar-höst".
 - Bildbandet under loggan heter nu "Egenodlat i säsong" och beskriver Theresias blomsterodling och handbuketen av egenodlat + utvalda snittblommor.
 - Leveransvillkor för bukettabonnemang: leverans/upphämtning torsdagar och fredagar, fraktkostnad tillkommer vid leverans, fri leverans inom Bara tätort.
+- Blomsterprenumeration som gåva: presentkort köpt hos Blomra, eller mejla uppgifter till den som ska få hämta/bli levererad en bukett – visas i bukettabonnemang-kortet under "Ge bort".
 
 ## Öppna
 - Betalningsvillkor ska läggas längst ner i bukettabonnemang-stycket – Theresia skickade bara rubriken "Betalningsvillkor:", själva texten saknas.
-- Blomsterprenumeration som gåva: presentkort köpt hos Blomra, eller mejla uppgifter till den som ska få hämta/bli levererad en bukett.
