@@ -16,6 +16,7 @@
 - Priser på bukettabonnemang inlagda: Liten 259 kr, Mellan 379 kr, Stor 499 kr, Lyx 795 kr, fri leverans inom Bara tätort.
 - Swish & Grab-bod nämner även växter och annat smått utifrån säsong, och att Theresia gärna tar hem önskemål.
 - Bildtexter i begravningssektionen: "Stående dekoration" och "Ljust farväl – Liggande bukett".
+- Urnbilden är utbytt mot foto utan namn på urnan, text "Urndekoration i varma toner av sensommar-höst".
 
 ## Öppna
 - Inga öppna punkter just nu.
