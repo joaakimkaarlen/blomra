@@ -44,7 +44,7 @@ type Offering = {
   body: string;
   extra?: string;
   prices?: { label: string; price: string }[];
-  note?: string;
+  note?: string[];
   span: string;
 };
 
@@ -59,7 +59,10 @@ const offerings: Offering[] = [
       { label: "Stor", price: "499 kr" },
       { label: "Lyx", price: "795 kr" },
     ],
-    note: "Fri leverans inom Bara tätort.",
+    note: [
+      "Leverans/upphämtning sker på torsdagar samt fredagar.",
+      "För leverans tillkommer fraktkostnad. Fri leverans inom Bara tätort.",
+    ],
     span: "lg:col-span-2",
   },
   {
@@ -330,7 +333,11 @@ function Index() {
                 </dl>
               )}
               {o.note && (
-                <p className="mt-3 text-sm text-forest/80">{o.note}</p>
+                <div className="mt-3 space-y-1.5 text-sm text-forest/80">
+                  {o.note.map((n) => (
+                    <p key={n}>{n}</p>
+                  ))}
+                </div>
               )}
               <span className="mt-6 block h-px w-10 bg-forest/25 transition-all duration-300 group-hover:w-24 group-hover:bg-cerise" />
             </article>
