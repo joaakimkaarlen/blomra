@@ -46,6 +46,7 @@ type Offering = {
   prices?: { label: string; price: string }[];
   note?: string[];
   gift?: string;
+  href?: string;
   span: string;
 };
 
@@ -69,23 +70,26 @@ const offerings: Offering[] = [
   },
   {
     title: "Swish & Grab-bod",
-    body: "Här finns bland annat helgbuketter av säsongens utvalda snittblommor. Swisha, plocka med dig och gå.",
+    body: "Här finns bland annat helgbuketter av säsongens utvalda snittblommor. Välj dina blommor, swisha, plocka med dig & njut.",
     extra: "Även växter och annat smått utifrån säsong kan finnas. Beror på efterfrågan, men tveka inte att höra av dig om du har ett önskemål om något jag ska ta in – det brukar jag kunna lösa.",
     span: "lg:col-span-2",
   },
   {
     title: "Bröllop",
     body: "Skapar allt ifrån brudbukett, corsage och större blomsterarrangemang – formgivet tillsammans med er.",
+    href: "#brollop",
     span: "lg:col-span-2",
   },
   {
     title: "Begravning",
     body: "Skapar allt ifrån buketter, stående- och liggande kistdekoration, urndekoration och kransar. Med omsorg och respekt.",
+    href: "#begravning",
     span: "lg:col-span-3",
   },
   {
     title: "Event & workshops",
     body: "Lär er binda exempelvis kransar tillsammans med ett härligt gäng. Bubbel & tilltugg ingår alltid.",
+    href: "#workshops",
     span: "lg:col-span-3",
   },
 ];
@@ -391,55 +395,64 @@ function Index() {
         </div>
 
         <div className="mt-12 grid gap-px overflow-hidden rounded-sm border border-border bg-border lg:grid-cols-6">
-          {offerings.map((o, i) => (
-            <article
-              key={o.title}
-              className={`group bg-background p-8 transition-colors hover:bg-blush/50 sm:p-10 ${o.span}`}
-            >
-              <span className="label-caps text-cerise">0{i + 1}</span>
-              <h3 className="mt-4 font-display text-2xl text-forest sm:text-3xl">
-                {o.title}
-              </h3>
-              <p className="mt-3 max-w-md text-muted-foreground">{o.body}</p>
-              {o.extra && (
-                <p className="mt-4 max-w-md text-muted-foreground">{o.extra}</p>
-              )}
-              {o.prices && (
-                <dl className="mt-6 max-w-sm border-t border-border">
-                  {o.prices.map((p) => (
-                    <div
-                      key={p.label}
-                      className="flex items-baseline justify-between gap-6 border-b border-border py-2.5"
-                    >
-                      <dt className="label-caps text-forest">{p.label}</dt>
-                      <dd className="font-display text-xl text-forest">
-                        {p.price}
-                      </dd>
-                    </div>
-                  ))}
-                </dl>
-              )}
-              {o.note && (
-                <div className="mt-3 space-y-1.5 text-sm text-forest/80">
-                  {o.note.map((n) => (
-                    <p key={n}>{n}</p>
-                  ))}
-                </div>
-              )}
-              {o.gift && (
-                <div className="mt-6 max-w-md rounded-sm border border-cerise/25 bg-blush/60 p-5">
-                  <p className="label-caps text-cerise">Ge bort</p>
-                  <p className="mt-2 text-sm leading-snug text-forest">{o.gift}</p>
-                </div>
-              )}
-              <span className="mt-6 block h-px w-10 bg-forest/25 transition-all duration-300 group-hover:w-24 group-hover:bg-cerise" />
-            </article>
-          ))}
+          {offerings.map((o, i) => {
+            const className = `group bg-background p-8 transition-colors hover:bg-blush/50 sm:p-10 ${o.span}`;
+            const inner = (
+              <>
+                <span className="label-caps text-cerise">0{i + 1}</span>
+                <h3 className="mt-4 font-display text-2xl text-forest sm:text-3xl">
+                  {o.title}
+                </h3>
+                <p className="mt-3 max-w-md text-muted-foreground">{o.body}</p>
+                {o.extra && (
+                  <p className="mt-4 max-w-md text-muted-foreground">{o.extra}</p>
+                )}
+                {o.prices && (
+                  <dl className="mt-6 max-w-sm border-t border-border">
+                    {o.prices.map((p) => (
+                      <div
+                        key={p.label}
+                        className="flex items-baseline justify-between gap-6 border-b border-border py-2.5"
+                      >
+                        <dt className="label-caps text-forest">{p.label}</dt>
+                        <dd className="font-display text-xl text-forest">
+                          {p.price}
+                        </dd>
+                      </div>
+                    ))}
+                  </dl>
+                )}
+                {o.note && (
+                  <div className="mt-3 space-y-1.5 text-sm text-forest/80">
+                    {o.note.map((n) => (
+                      <p key={n}>{n}</p>
+                    ))}
+                  </div>
+                )}
+                {o.gift && (
+                  <div className="mt-6 max-w-md rounded-sm border border-cerise/25 bg-blush/60 p-5">
+                    <p className="label-caps text-cerise">Ge bort</p>
+                    <p className="mt-2 text-sm leading-snug text-forest">{o.gift}</p>
+                  </div>
+                )}
+                <span className="mt-6 block h-px w-10 bg-forest/25 transition-all duration-300 group-hover:w-24 group-hover:bg-cerise" />
+              </>
+            );
+            return o.href ? (
+              <a key={o.title} href={o.href} className={className}>
+                {inner}
+              </a>
+            ) : (
+              <article key={o.title} className={className}>
+                {inner}
+              </article>
+            );
+          })}
         </div>
       </section>
 
       {/* Ur Blomras verk */}
-      <section id="verk" className="bg-cerise">
+      <section id="verk" className="bg-cerise-soft">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <p className="label-caps text-primary-foreground/80">Buketter & arrangemang</p>
           <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-primary-foreground sm:text-5xl">
@@ -538,7 +551,7 @@ function Index() {
               Tillsammans skapar vi ett blomsterarrangemang.
             </p>
           </div>
-          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-5 lg:grid-cols-5">
+          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-5">
             {funerals.map((f) => (
               <figure
                 key={f.caption}

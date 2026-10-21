@@ -45,6 +45,7 @@
   --color-ring-offset-background: var(--background);
   --color-cerise: var(--cerise);
   --color-cerise-deep: var(--cerise-deep);
+  --color-cerise-soft: var(--cerise-soft);
   --color-blush: var(--blush);
   --color-blush-deep: var(--blush-deep);
   --color-forest: var(--forest);
@@ -71,6 +72,7 @@
   /* Brand colors: cerise, light pink, dark forest green, white */
   --cerise: oklch(0.6 0.2 355);
   --cerise-deep: oklch(0.52 0.2 355);
+  --cerise-soft: oklch(0.67 0.16 355);
   --blush: oklch(0.94 0.035 355);
   --blush-deep: oklch(0.88 0.07 355);
   --forest: oklch(0.29 0.062 160);
