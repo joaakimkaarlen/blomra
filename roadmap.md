@@ -22,5 +22,8 @@
 - Blomsterprenumeration som gåva: presentkort köpt hos Blomra, eller mejla uppgifter till den som ska få hämta/bli levererad en bukett – visas i bukettabonnemang-kortet under "Ge bort".
 - Blomlistan "Ceriserosa Dahlia – ... – lavendelblå Scabiosa" är borttagen ur bildbandet; där står nu bara "Egenodlat i säsong" och texten om handbuketen.
 
+- Bröllopssektion (#brollop) på cerise bakgrund, meny: Mina verk, Bröllop, Begravning; "Aktuellt just nu" höstens workshops under hero-knapparna.
+- Workshops-sektionen flyttad upp under hero; begravningsfoton mindre; "Jag" borttaget före "skapar allt ifrån"; info om beställningar alla dagar under "Fem sätt".
+
 ## Öppna
 - Betalningsvillkor ska läggas längst ner i bukettabonnemang-stycket – Theresia skickade bara rubriken "Betalningsvillkor:", själva texten saknas.

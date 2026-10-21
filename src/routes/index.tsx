@@ -75,12 +75,12 @@ const offerings: Offering[] = [
   },
   {
     title: "Bröllop",
-    body: "Jag skapar allt ifrån brudbukett, corsage och större blomsterarrangemang – formgivet tillsammans med er.",
+    body: "Skapar allt ifrån brudbukett, corsage och större blomsterarrangemang – formgivet tillsammans med er.",
     span: "lg:col-span-2",
   },
   {
     title: "Begravning",
-    body: "Jag skapar allt ifrån buketter, stående- och liggande kistdekoration, urndekoration och kransar. Med omsorg och respekt.",
+    body: "Skapar allt ifrån buketter, stående- och liggande kistdekoration, urndekoration och kransar. Med omsorg och respekt.",
     span: "lg:col-span-3",
   },
   {
@@ -295,6 +295,51 @@ function Index() {
           </a>
         </div>
       </section>
+      {/* Workshops */}
+      <section id="workshops" className="bg-forest text-forest-foreground">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-2">
+          <img
+            src={workshopHostkrans.url}
+            alt="Händer som binder höstkrans med eukalyptus, hydrangea och ljung på ett dukat workshopbord"
+            width={1440}
+            height={1920}
+            loading="lazy"
+            className="aspect-square w-full rounded-sm object-cover"
+          />
+          <div>
+            <p className="label-caps text-blush-deep">Workshops & event</p>
+            <h2 className="mt-4 font-display text-4xl leading-tight sm:text-5xl">
+              Binda tillsammans, bubbel & tilltugg ingår
+            </h2>
+            <p className="mt-6 max-w-md text-lg text-blush/80">
+              Jag erbjuder workshops där ni tillsammans med ett härligt gäng får lära er
+              binda exempelvis kransar med mig. Perfekt för middagar med vänner,
+              företagsevent, möhippor och alla andra tillfällen som förtjänar blommor
+              och gemenskap.
+            </p>
+            <div className="mt-8 max-w-md rounded-sm border border-blush/30 bg-forest-deep/50 p-6">
+              <p className="label-caps text-blush-deep">Höstens workshops</p>
+              <ul className="mt-3 space-y-2 text-blush">
+                <li className="flex items-baseline justify-between gap-4">
+                  <span>Höstkrans</span>
+                  <span className="font-display text-xl">619 kr</span>
+                </li>
+                <li className="flex items-baseline justify-between gap-4">
+                  <span>Vinter- och julkrans</span>
+                  <span className="font-display text-xl">619 kr</span>
+                </li>
+              </ul>
+            </div>
+            <a
+              href="#kontakt"
+              className="mt-9 inline-block rounded-full bg-primary px-8 py-3 text-sm uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-blush hover:text-forest"
+            >
+              Boka en workshop
+            </a>
+          </div>
+        </div>
+      </section>
+
 
       {/* Photo band */}
       <div className="bg-blush">
@@ -329,6 +374,15 @@ function Index() {
         <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
           Fem sätt att låta dig blomra
         </h2>
+        <div className="mt-8 max-w-3xl rounded-sm border border-cerise/25 bg-blush/60 p-6 sm:p-8">
+          <p className="label-caps text-cerise">Beställ alla dagar i veckan</p>
+          <p className="mt-3 text-forest">
+            Jag tar emot beställningar alla dagar i veckan, även om blomsterboden just nu
+            endast är öppen fredag–söndag. Allt ifrån buketter och blomsterbud till andra
+            blomsterarrangemang. Jag har ett öppet kreativt sinne inför att möta dina
+            behov och önskemål.
+          </p>
+        </div>
 
         <div className="mt-12 grid gap-px overflow-hidden rounded-sm border border-border bg-border lg:grid-cols-6">
           {offerings.map((o, i) => (
@@ -415,7 +469,7 @@ function Index() {
             Bröllop
           </h2>
           <p className="mt-5 max-w-xl text-primary-foreground/90">
-            Jag skapar allt ifrån brudbukett, corsage och större blomsterarrangemang –
+            Skapar allt ifrån brudbukett, corsage och större blomsterarrangemang –
             formgivet tillsammans med er.
           </p>
           <div className="mt-12 grid gap-4 sm:grid-cols-3 sm:gap-5">
@@ -446,15 +500,15 @@ function Index() {
             Begravning
           </h2>
           <p className="mt-5 max-w-xl text-muted-foreground">
-            Att ta avsked är svårt. Jag skapar kistdekorationer, kransar,
+            Att ta avsked är svårt. Skapar kistdekorationer, kransar,
             urndekorationer och buketter med omsorg – personligt formade
             efter minnet av den som gått bort.
           </p>
-          <div className="mt-12 grid gap-4 sm:gap-5 lg:grid-cols-4">
+          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-5 lg:grid-cols-5">
             {funerals.map((f) => (
               <figure
                 key={f.caption}
-                className={f.span ? `lg:col-span-2 ${f.span}` : ""}
+                
               >
                 <img
                   src={f.src.url}
@@ -469,51 +523,6 @@ function Index() {
                 </figcaption>
               </figure>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Workshops */}
-      <section id="workshops" className="bg-forest text-forest-foreground">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-2">
-          <img
-            src={workshopHostkrans.url}
-            alt="Händer som binder höstkrans med eukalyptus, hydrangea och ljung på ett dukat workshopbord"
-            width={1440}
-            height={1920}
-            loading="lazy"
-            className="aspect-square w-full rounded-sm object-cover"
-          />
-          <div>
-            <p className="label-caps text-blush-deep">Workshops & event</p>
-            <h2 className="mt-4 font-display text-4xl leading-tight sm:text-5xl">
-              Binda tillsammans, bubbel & tilltugg ingår
-            </h2>
-            <p className="mt-6 max-w-md text-lg text-blush/80">
-              Jag erbjuder workshops där ni tillsammans med ett härligt gäng får lära er
-              binda exempelvis kransar med mig. Perfekt för middagar med vänner,
-              företagsevent, möhippor och alla andra tillfällen som förtjänar blommor
-              och gemenskap.
-            </p>
-            <div className="mt-8 max-w-md rounded-sm border border-blush/30 bg-forest-deep/50 p-6">
-              <p className="label-caps text-blush-deep">Höstens workshops</p>
-              <ul className="mt-3 space-y-2 text-blush">
-                <li className="flex items-baseline justify-between gap-4">
-                  <span>Höstkrans</span>
-                  <span className="font-display text-xl">619 kr</span>
-                </li>
-                <li className="flex items-baseline justify-between gap-4">
-                  <span>Vinter- och julkrans</span>
-                  <span className="font-display text-xl">619 kr</span>
-                </li>
-              </ul>
-            </div>
-            <a
-              href="#kontakt"
-              className="mt-9 inline-block rounded-full bg-primary px-8 py-3 text-sm uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-blush hover:text-forest"
-            >
-              Boka en workshop
-            </a>
           </div>
         </div>
       </section>
