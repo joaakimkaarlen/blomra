@@ -476,10 +476,22 @@ function Index() {
           <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
             Bröllop
           </h2>
-          <p className="mt-5 max-w-xl text-muted-foreground">
-            Skapar allt ifrån brudbukett, corsage och större blomsterarrangemang –
-            formgivet tillsammans med er.
+          <p className="mt-5 font-display text-2xl leading-snug text-forest sm:text-3xl">
+            Blommor för er stora dag
           </p>
+          <div className="mt-5 max-w-2xl space-y-4 text-muted-foreground">
+            <p>
+              Blommor sätter tonen för en av livets mest minnesvärda dagar. Jag
+              skapar allt från personliga brudbuketter och corsage till
+              blomsterarrangemang som förhöjer känslan genom hela bröllopet.
+            </p>
+            <p>
+              Tillsammans formar vi ett blomsterspråk som speglar er, er stil och
+              vision – från de första idéerna till de små detaljerna som gör dagen
+              unik. Med omtanke om varje blomma och varje önskemål skapar vi något
+              personligt, vackert och alldeles ert eget.
+            </p>
+          </div>
           <div className="mt-12 grid gap-4 sm:grid-cols-3 sm:gap-5">
             {weddings.map((w) => (
               <figure key={w.caption}>
@@ -507,11 +519,25 @@ function Index() {
           <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
             Begravning
           </h2>
-          <p className="mt-5 max-w-xl text-muted-foreground">
+          <p className="mt-5 max-w-2xl text-muted-foreground">
             Att ta avsked är svårt. Skapar kistdekorationer, kransar,
-            urndekorationer och buketter med omsorg – personligt formade
-            efter minnet av den som gått bort.
+            urndekorationer och buketter med omsorg – personligt formade efter
+            minnet av den som gått bort.
           </p>
+          <div className="mt-5 max-w-2xl space-y-4 text-muted-foreground">
+            <p>
+              Du kan beställa dina begravningsblommor direkt hos mig som florist –
+              du behöver alltså inte gå via en begravningsbyrå. Att låta
+              begravningsbyrån sköta beställningen kan vara ett bekvämt alternativ
+              när du vill lämna över det praktiska, men genom att kontakta mig
+              direkt slipper du en mellanhand och får ofta ett förmånligare pris.
+            </p>
+            <p>
+              Framför allt får du möjlighet att själv vara delaktig i utformningen
+              och berätta om dina tankar, önskemål och personliga detaljer.
+              Tillsammans skapar vi ett blomsterarrangemang.
+            </p>
+          </div>
           <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-5 lg:grid-cols-5">
             {funerals.map((f) => (
               <figure
