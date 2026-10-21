@@ -64,7 +64,7 @@ const offerings: Offering[] = [
       "Leverans/upphämtning sker på torsdagar samt fredagar.",
       "För leverans tillkommer fraktkostnad. Fri leverans inom Bara tätort.",
     ],
-    gift: "Visste du att du också kan ge bort en blomsterprenumeration? Köp ett presentkort hos Blomra – eller mejla uppgifter till den som ska få hämta eller bli levererad en bukett.",
+    gift: "Visste du att du också kan ge bort en blomsterprenumeration? Köp ett presentkort hos Blomra – eller mejla mig uppgifter till den som ska få hämta eller bli levererad en bukett.",
     span: "lg:col-span-2",
   },
   {
@@ -382,6 +382,12 @@ function Index() {
             blomsterarrangemang. Jag har ett öppet kreativt sinne inför att möta dina
             behov och önskemål.
           </p>
+          <a
+            href="#kontakt"
+            className="mt-6 inline-block rounded-full bg-primary px-8 py-3 text-sm uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-cerise-deep"
+          >
+            Kontakta mig
+          </a>
         </div>
 
         <div className="mt-12 grid gap-px overflow-hidden rounded-sm border border-border bg-border lg:grid-cols-6">
@@ -433,42 +439,44 @@ function Index() {
       </section>
 
       {/* Ur Blomras verk */}
-      <section id="verk" className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
-        <p className="label-caps text-cerise">Buketter & arrangemang</p>
-        <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
-          Ur Blomras verk
-        </h2>
-        <p className="mt-5 max-w-xl text-muted-foreground">
-          Ett litet urval av buketter och arrangemang som skapats i Blomras
-          anda – ofta med säsongens bästa blommor.
-        </p>
-        <div className="mt-12 columns-2 gap-4 sm:gap-5 lg:columns-3">
-          {works.map((w) => (
-            <figure key={w.caption} className="mb-4 break-inside-avoid sm:mb-5">
-              <img
-                src={w.src.url}
-                alt={w.alt}
-                width={w.w}
-                height={w.h}
-                loading="lazy"
-                className="w-full rounded-sm"
-              />
-              <figcaption className="mt-3 text-[0.95rem] leading-snug text-muted-foreground">
-                {w.caption}
-              </figcaption>
-            </figure>
-          ))}
+      <section id="verk" className="bg-cerise">
+        <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+          <p className="label-caps text-primary-foreground/80">Buketter & arrangemang</p>
+          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-primary-foreground sm:text-5xl">
+            Ur Blomras verk
+          </h2>
+          <p className="mt-5 max-w-xl text-primary-foreground/90">
+            Ett litet urval av buketter och arrangemang som skapats i Blomras
+            anda – ofta med säsongens bästa blommor.
+          </p>
+          <div className="mt-12 columns-2 gap-4 sm:gap-5 lg:columns-3">
+            {works.map((w) => (
+              <figure key={w.caption} className="mb-4 break-inside-avoid sm:mb-5">
+                <img
+                  src={w.src.url}
+                  alt={w.alt}
+                  width={w.w}
+                  height={w.h}
+                  loading="lazy"
+                  className="w-full rounded-sm"
+                />
+                <figcaption className="mt-3 text-[0.95rem] leading-snug text-primary-foreground/90">
+                  {w.caption}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* Bröllop */}
-      <section id="brollop" className="bg-cerise text-primary-foreground">
+      <section id="brollop" className="bg-background">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
-          <p className="label-caps text-primary-foreground/80">Formgivet tillsammans med er</p>
-          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight sm:text-5xl">
+          <p className="label-caps text-cerise">Formgivet tillsammans med er</p>
+          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
             Bröllop
           </h2>
-          <p className="mt-5 max-w-xl text-primary-foreground/90">
+          <p className="mt-5 max-w-xl text-muted-foreground">
             Skapar allt ifrån brudbukett, corsage och större blomsterarrangemang –
             formgivet tillsammans med er.
           </p>
@@ -483,7 +491,7 @@ function Index() {
                   loading="lazy"
                   className="w-full rounded-sm"
                 />
-                <figcaption className="mt-3 text-[0.95rem] leading-snug text-primary-foreground/90">
+                <figcaption className="mt-3 text-[0.95rem] leading-snug text-muted-foreground">
                   {w.caption}
                 </figcaption>
               </figure>
