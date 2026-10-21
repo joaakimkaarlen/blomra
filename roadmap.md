@@ -27,6 +27,9 @@
 - Ceriserosa bakgrunden ligger nu i "Buketter & arrangemang / Ur Blomras verk" (#verk, vit text och vita bildtexter); Bröllop har vit bakgrund i stället.
 - "Kontakta mig"-knapp under "Beställ alla dagar i veckan" som scrollar ner till kontaktuppgifterna längst ner.
 - Presentkortstexten säger nu "mejla mig uppgifter till den som ska få hämta eller bli levererad en bukett".
+- Begravningstexten säger nu att man kan beställa begravningsblommor direkt hos Blomra utan begravningsbyrå – slipper mellanhand, ofta förmånligare pris, och är själv delaktig i utformningen.
+- Bröllopssektionen inleds nu med "Blommor för er stora dag" och texten om blomsterspråk som speglar brudparets stil och vision.
+
 
 ## Öppna
 - Betalningsvillkor ska läggas längst ner i bukettabonnemang-stycket – Theresia skickade bara rubriken "Betalningsvillkor:", själva texten saknas.
