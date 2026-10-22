@@ -61,10 +61,7 @@ const offerings: Offering[] = [
       { label: "Stor", price: "499 kr" },
       { label: "Lyx", price: "795 kr" },
     ],
-    note: [
-      "Leverans/upphämtning sker på torsdagar samt fredagar.",
-      "För leverans tillkommer fraktkostnad. Fri leverans inom Bara tätort.",
-    ],
+    href: "#abonnemang",
     gift: "Visste du att du också kan ge bort en blomsterprenumeration? Köp ett presentkort hos Blomra – eller mejla mig uppgifter till den som ska få hämta eller bli levererad en bukett.",
     span: "lg:col-span-2",
   },
@@ -84,14 +81,34 @@ const offerings: Offering[] = [
     title: "Begravning",
     body: "Skapar allt ifrån buketter, stående- och liggande kistdekoration, urndekoration och kransar. Med omsorg och respekt.",
     href: "#begravning",
-    span: "lg:col-span-3",
+    span: "lg:col-span-2",
   },
   {
     title: "Event & workshops",
     body: "Lär er binda exempelvis kransar tillsammans med ett härligt gäng. Bubbel & tilltugg ingår alltid.",
     href: "#workshops",
-    span: "lg:col-span-3",
+    span: "lg:col-span-2",
   },
+  {
+    title: "Presentkort",
+    body: "Skickas digitalt efter betalningsbekräftelse eller kan upphämtas som ett fysiskt presentkort. Mejla Blomra för beställning/köp.",
+    href: "#kontakt",
+    span: "lg:col-span-2",
+  },
+];
+
+const subscriptionSizes = [
+  { label: "Liten", price: "259 kr" },
+  { label: "Mellan", price: "379 kr" },
+  { label: "Stor", price: "499 kr" },
+  { label: "Lyx", price: "795 kr" },
+];
+
+const priceExamples = [
+  { label: "Bukett Liten", four: "995 kr", one: "259 kr" },
+  { label: "Bukett Mellan", four: "1 435 kr", one: "379 kr" },
+  { label: "Bukett Större", four: "1 895 kr", one: "499 kr" },
+  { label: "Bukett Lyx", four: "3 025 kr", one: "795 kr" },
 ];
 
 const works = [
@@ -283,14 +300,24 @@ function Index() {
           >
             <p className="label-caps text-cerise">Aktuellt just nu</p>
             <p className="mt-2 font-display text-2xl text-forest">Höstens workshops</p>
-            <ul className="mt-3 space-y-1.5 text-forest">
-              <li className="flex items-baseline justify-between gap-4">
-                <span>Höstkrans</span>
-                <span className="font-display text-lg">619 kr</span>
+            <ul className="mt-3 space-y-3 text-forest">
+              <li>
+                <div className="flex items-baseline justify-between gap-4">
+                  <span>Höstkrans</span>
+                  <span className="font-display text-lg">619 kr</span>
+                </div>
+                <p className="mt-0.5 text-sm text-muted-foreground">
+                  Lördag 24 oktober kl. 14–16
+                </p>
               </li>
-              <li className="flex items-baseline justify-between gap-4">
-                <span>Vinter- och julkrans</span>
-                <span className="font-display text-lg">619 kr</span>
+              <li>
+                <div className="flex items-baseline justify-between gap-4">
+                  <span>Vinter- och julkrans</span>
+                  <span className="font-display text-lg">619 kr</span>
+                </div>
+                <p className="mt-0.5 text-sm text-muted-foreground">
+                  Torsdag 19 november kl. 17.30–19.30
+                </p>
               </li>
             </ul>
             <p className="mt-4 text-sm text-muted-foreground">
@@ -376,7 +403,7 @@ function Index() {
       <section id="erbjudanden" className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
         <p className="label-caps text-cerise">Det här erbjuder Blomra</p>
         <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
-          Fem sätt att låta dig blomra
+          Sex sätt att låta dig blomra
         </h2>
         <div className="mt-8 max-w-3xl rounded-sm border border-cerise/25 bg-blush/60 p-6 sm:p-8">
           <p className="label-caps text-cerise">Beställ alla dagar i veckan</p>
@@ -452,6 +479,82 @@ function Index() {
       </section>
 
       {/* Ur Blomras verk */}
+      {/* Blomsterabonnemang */}
+      <section id="abonnemang" className="bg-latte">
+        <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+          <p className="label-caps text-cerise">Blomsterabonnemang</p>
+          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
+            Förgyll hemmet med en vacker bukett
+          </h2>
+          <p className="mt-5 max-w-2xl text-muted-foreground">
+            Varje vecka, varannan vecka eller en gång i månaden – beroende på vad
+            som passar dig eller den personen du överraskar. Floristen skapar
+            bukett utifrån säsong med utvalda kvalitetsblommor.
+          </p>
+          <p className="mt-4 max-w-2xl text-muted-foreground">
+            Leverans/upphämtning sker på torsdagar samt fredagar. För leverans
+            tillkommer fraktkostnad. Fri leverans inom Bara tätort.
+          </p>
+          <div className="mt-12 grid gap-6 lg:grid-cols-2">
+            <div className="rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
+              <p className="label-caps text-cerise">Välj bukettstorlek</p>
+              <dl className="mt-5 border-t border-border">
+                {subscriptionSizes.map((p) => (
+                  <div
+                    key={p.label}
+                    className="flex items-baseline justify-between gap-6 border-b border-border py-2.5"
+                  >
+                    <dt className="label-caps text-forest">{p.label}</dt>
+                    <dd className="font-display text-xl text-forest">{p.price}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            <div className="rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
+              <p className="label-caps text-cerise">Betalningsvillkor</p>
+              <div className="mt-4 space-y-3 text-forest/90">
+                <p>Du väljer själv det betalningsalternativ som passar dig bäst.</p>
+                <p>
+                  Betala för fyra buketter i förskott till ett förmånligt upplägg,
+                  eller välj att betala inför varje enskild leverans. Betalningen
+                  sker oavsett alltid i förskott, senast 5 dagar före planerad
+                  leverans eller upphämtning.
+                </p>
+                <p>
+                  Ingen bindningstid – jag fortsätter att skicka faktura och
+                  leverera tills ni aktivt meddelar att ni vill avsluta
+                  prenumerationen, vilket måste göras 5 dagar innan nästa leverans.
+                </p>
+                <p>
+                  Om ni av någon anledning inte är hemma när buketten ska hämtas
+                  eller levereras – till exempel om ni är iväg och reser – kan ni
+                  minst 3 dagar innan pausa buketten, eller meddela att den ska
+                  överlåtas till någon ni känner.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-6 rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
+            <p className="label-caps text-cerise">Prisexempel</p>
+            <div className="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {priceExamples.map((p) => (
+                <div key={p.label}>
+                  <p className="label-caps text-forest">{p.label}</p>
+                  <p className="mt-3 flex items-baseline justify-between gap-4 text-forest">
+                    <span>4 buketter</span>
+                    <span className="font-display text-xl">{p.four}</span>
+                  </p>
+                  <p className="mt-1 flex items-baseline justify-between gap-4 text-forest">
+                    <span>1 bukett</span>
+                    <span className="font-display text-xl">{p.one}</span>
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="verk" className="bg-cerise-soft">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <p className="label-caps text-primary-foreground/80">Buketter & arrangemang</p>
