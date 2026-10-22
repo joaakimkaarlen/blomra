@@ -48,6 +48,7 @@
   --color-cerise-soft: var(--cerise-soft);
   --color-blush: var(--blush);
   --color-blush-deep: var(--blush-deep);
+  --color-latte: var(--latte);
   --color-forest: var(--forest);
   --color-forest-deep: var(--forest-deep);
   --color-forest-foreground: var(--forest-foreground);
@@ -75,6 +76,7 @@
   --cerise-soft: oklch(0.67 0.16 355);
   --blush: oklch(0.94 0.035 355);
   --blush-deep: oklch(0.88 0.07 355);
+  --latte: oklch(0.93 0.03 80);
   --forest: oklch(0.29 0.062 160);
   --forest-deep: oklch(0.22 0.05 160);
   --forest-foreground: oklch(0.97 0.012 350);
