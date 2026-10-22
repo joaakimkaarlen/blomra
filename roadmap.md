@@ -32,4 +32,7 @@
 
 
 ## Öppna
-- Betalningsvillkor ska läggas längst ner i bukettabonnemang-stycket – Theresia skickade bara rubriken "Betalningsvillkor:", själva texten saknas.
+- Verifiera de fyra senaste ändringarna (Swish-text, större begravningsfoton, ljusare cerise i #verk, klickbara erbjudandekort).
+- Workshopdatum i "Aktuellt just nu": Höstkrans lör 24 okt kl. 14–16, Vinterkrans tors 19 nov kl. 17:30–19:30.
+- Ny sektion "Blomsterabonnemang" (champagne/nougat/latte-bakgrund): flytta leveransinfo dit, lägg till betalningsvillkor och prisexempel (4 buketter: 995/1435/1895/3025 kr).
+- Sjätte erbjudandekort: Presentkort (digitalt efter betalningsbekräftelse eller fysiskt, mejla för beställning) – rubrik blir "Sex sätt att låta dig blomra".
