@@ -674,7 +674,7 @@ function Index() {
         </div>
       </section>
 
-            {/* Quote */}
+      {/* Quote */}
       <section className="bg-blush">
         <div className="mx-auto max-w-3xl px-6 py-20 text-center sm:py-24">
           <p className="font-display text-3xl italic leading-snug text-forest sm:text-4xl">
