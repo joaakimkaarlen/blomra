@@ -15,6 +15,8 @@ import funeralWhite from "@/assets/funeral-white.jpg.asset.json";
 import workBridesCascade from "@/assets/work-brides-cascade.jpg.asset.json";
 import workRoseBox from "@/assets/work-rose-box.jpg.asset.json";
 import workPastelBouquet from "@/assets/work-pastel-bouquet.jpg.asset.json";
+import weddingAutumnRosor from "@/assets/wedding-autumn-rosor.jpg.asset.json";
+import weddingCorsage from "@/assets/wedding-corsage.jpg.asset.json";
 import workshopHostkrans from "@/assets/workshop-hostkrans.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -175,6 +177,20 @@ const weddings = [
     src: workPastelBouquet,
     alt: "Brudbukett i vitt och rosa med rosor, nejlikor, slöjblommor och eucalyptus",
     caption: "Brudbukett i vitt, rosa & persikofärg",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: weddingAutumnRosor,
+    alt: "Brudbukett med puderrosa rosor, persikofärgade nejlikor, torkade strån och eukalyptus, hållen i båda händerna",
+    caption: "Brudbukett med höstens torkade & färska trädgårdsrosor",
+    w: 900,
+    h: 1200,
+  },
+  {
+    src: weddingCorsage,
+    alt: "Corsage med aprikosfärgad nejlika, torkade strån och eukalyptus fäst på ett mörkt kavajslag",
+    caption: "Matchande Corsage på mannens kavaj",
     w: 900,
     h: 1200,
   },
