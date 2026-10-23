@@ -476,7 +476,7 @@ function Index() {
       </section>
 
       {/* Ur Blomras verk */}
-<section id="verk" className="bg-cerise-soft">
+      <section id="verk" className="bg-cerise-soft">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <p className="label-caps text-primary-foreground/80">Buketter & arrangemang</p>
           <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-primary-foreground sm:text-5xl">
