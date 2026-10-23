@@ -29,10 +29,11 @@
 - Presentkortstexten säger nu "mejla mig uppgifter till den som ska få hämta eller bli levererad en bukett".
 - Begravningstexten säger nu att man kan beställa begravningsblommor direkt hos Blomra utan begravningsbyrå – slipper mellanhand, ofta förmånligare pris, och är själv delaktig i utformningen.
 - Bröllopssektionen inleds nu med "Blommor för er stora dag" och texten om blomsterspråk som speglar brudparets stil och vision.
+- Swish & Grab-texten lyder nu "Välj dina blommor, swisha, plocka med dig & njut."; begravningsfotona är större (tre i bredd); "Ur Blomras verk" har ljusare cerisetton (cerise-soft); erbjudandekorten är klickbara och scrollar till rätt sektion.
+- Workshopdatum i "Aktuellt just nu": Höstkrans lör 24 okt kl. 14–16, Vinterkrans tors 19 nov kl. 17.30–19.30.
+- Ny sektion "Blomsterabonnemang" (#abonnemang, latte/champagne-bakgrund) med leveransinfo, betalningsvillkor och prisexempel (4 buketter: 995/1 435/1 895/3 025 kr). Leveranstexten flyttad dit från erbjudandekortet.
+- Sjätte erbjudandekortet "Presentkort" tillagt – rubriken är nu "Sex sätt att låta dig blomra".
 
 
 ## Öppna
-- Verifiera de fyra senaste ändringarna (Swish-text, större begravningsfoton, ljusare cerise i #verk, klickbara erbjudandekort).
-- Workshopdatum i "Aktuellt just nu": Höstkrans lör 24 okt kl. 14–16, Vinterkrans tors 19 nov kl. 17:30–19:30.
-- Ny sektion "Blomsterabonnemang" (champagne/nougat/latte-bakgrund): flytta leveransinfo dit, lägg till betalningsvillkor och prisexempel (4 buketter: 995/1435/1895/3025 kr).
-- Sjätte erbjudandekort: Presentkort (digitalt efter betalningsbekräftelse eller fysiskt, mejla för beställning) – rubrik blir "Sex sätt att låta dig blomra".
+- (inga öppna punkter just nu)
