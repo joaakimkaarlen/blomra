@@ -402,11 +402,8 @@ function Index() {
       {/* Erbjudanden */}
       <section id="erbjudanden" className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
         <p className="label-caps text-cerise">Det här erbjuder Blomra</p>
-        <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
-          Sex sätt att låta dig blomra
-        </h2>
         <div className="mt-8 max-w-3xl rounded-sm border border-cerise/25 bg-blush/60 p-6 sm:p-8">
-          <p className="label-caps text-cerise">Beställ alla dagar i veckan</p>
+          <p className="label-caps text-forest-deep">Beställ alla dagar i veckan</p>
           <p className="mt-3 text-forest">
             Jag tar emot beställningar alla dagar i veckan, även om blomsterboden just nu
             endast är öppen fredag–söndag. Allt ifrån buketter och blomsterbud till andra
@@ -479,82 +476,6 @@ function Index() {
       </section>
 
       {/* Ur Blomras verk */}
-      {/* Blomsterabonnemang */}
-      <section id="abonnemang" className="bg-latte">
-        <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
-          <p className="label-caps text-cerise">Blomsterabonnemang</p>
-          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
-            Förgyll hemmet med en vacker bukett
-          </h2>
-          <p className="mt-5 max-w-2xl text-muted-foreground">
-            Varje vecka, varannan vecka eller en gång i månaden – beroende på vad
-            som passar dig eller den personen du överraskar. Floristen skapar
-            bukett utifrån säsong med utvalda kvalitetsblommor.
-          </p>
-          <p className="mt-4 max-w-2xl text-muted-foreground">
-            Leverans/upphämtning sker på torsdagar samt fredagar. För leverans
-            tillkommer fraktkostnad. Fri leverans inom Bara tätort.
-          </p>
-          <div className="mt-12 grid gap-6 lg:grid-cols-2">
-            <div className="rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
-              <p className="label-caps text-cerise">Välj bukettstorlek</p>
-              <dl className="mt-5 border-t border-border">
-                {subscriptionSizes.map((p) => (
-                  <div
-                    key={p.label}
-                    className="flex items-baseline justify-between gap-6 border-b border-border py-2.5"
-                  >
-                    <dt className="label-caps text-forest">{p.label}</dt>
-                    <dd className="font-display text-xl text-forest">{p.price}</dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-            <div className="rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
-              <p className="label-caps text-cerise">Betalningsvillkor</p>
-              <div className="mt-4 space-y-3 text-forest/90">
-                <p>Du väljer själv det betalningsalternativ som passar dig bäst.</p>
-                <p>
-                  Betala för fyra buketter i förskott till ett förmånligt upplägg,
-                  eller välj att betala inför varje enskild leverans. Betalningen
-                  sker oavsett alltid i förskott, senast 5 dagar före planerad
-                  leverans eller upphämtning.
-                </p>
-                <p>
-                  Ingen bindningstid – jag fortsätter att skicka faktura och
-                  leverera tills ni aktivt meddelar att ni vill avsluta
-                  prenumerationen, vilket måste göras 5 dagar innan nästa leverans.
-                </p>
-                <p>
-                  Om ni av någon anledning inte är hemma när buketten ska hämtas
-                  eller levereras – till exempel om ni är iväg och reser – kan ni
-                  minst 3 dagar innan pausa buketten, eller meddela att den ska
-                  överlåtas till någon ni känner.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="mt-6 rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
-            <p className="label-caps text-cerise">Prisexempel</p>
-            <div className="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {priceExamples.map((p) => (
-                <div key={p.label}>
-                  <p className="label-caps text-forest">{p.label}</p>
-                  <p className="mt-3 flex items-baseline justify-between gap-4 text-forest">
-                    <span>4 buketter</span>
-                    <span className="font-display text-xl">{p.four}</span>
-                  </p>
-                  <p className="mt-1 flex items-baseline justify-between gap-4 text-forest">
-                    <span>1 bukett</span>
-                    <span className="font-display text-xl">{p.one}</span>
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="verk" className="bg-cerise-soft">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <p className="label-caps text-primary-foreground/80">Buketter & arrangemang</p>
@@ -677,12 +598,88 @@ function Index() {
         </div>
       </section>
 
+      {/* Blomsterabonnemang */}
+      <section id="abonnemang" className="bg-latte">
+        <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+          <p className="label-caps text-cerise">Blomsterabonnemang</p>
+          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
+            Förgyll hemmet med en vacker bukett
+          </h2>
+          <p className="mt-5 max-w-2xl text-muted-foreground">
+            Varje vecka, varannan vecka eller en gång i månaden – beroende på vad
+            som passar dig eller den personen du överraskar. Floristen skapar
+            bukett utifrån säsong med utvalda kvalitetsblommor.
+          </p>
+          <p className="mt-4 max-w-2xl text-muted-foreground">
+            Leverans/upphämtning sker på torsdagar samt fredagar. För leverans
+            tillkommer fraktkostnad. Fri leverans inom Bara tätort.
+          </p>
+          <div className="mt-12 grid gap-6 lg:grid-cols-2">
+            <div className="rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
+              <p className="label-caps text-cerise">Välj bukettstorlek</p>
+              <dl className="mt-5 border-t border-border">
+                {subscriptionSizes.map((p) => (
+                  <div
+                    key={p.label}
+                    className="flex items-baseline justify-between gap-6 border-b border-border py-2.5"
+                  >
+                    <dt className="label-caps text-forest">{p.label}</dt>
+                    <dd className="font-display text-xl text-forest">{p.price}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            <div className="rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
+              <p className="label-caps text-cerise">Betalningsvillkor</p>
+              <div className="mt-4 space-y-3 text-forest/90">
+                <p>Du väljer själv det betalningsalternativ som passar dig bäst.</p>
+                <p>
+                  Betala för fyra buketter i förskott till ett förmånligt upplägg,
+                  eller välj att betala inför varje enskild leverans. Betalningen
+                  sker oavsett alltid i förskott, senast 5 dagar före planerad
+                  leverans eller upphämtning.
+                </p>
+                <p>
+                  Ingen bindningstid – jag fortsätter att skicka faktura och
+                  leverera tills ni aktivt meddelar att ni vill avsluta
+                  prenumerationen, vilket måste göras 5 dagar innan nästa leverans.
+                </p>
+                <p>
+                  Om ni av någon anledning inte är hemma när buketten ska hämtas
+                  eller levereras – till exempel om ni är iväg och reser – kan ni
+                  minst 3 dagar innan pausa buketten, eller meddela att den ska
+                  överlåtas till någon ni känner.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-6 rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
+            <p className="label-caps text-cerise">Prisexempel</p>
+            <div className="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {priceExamples.map((p) => (
+                <div key={p.label}>
+                  <p className="label-caps text-forest">{p.label}</p>
+                  <p className="mt-3 flex items-baseline justify-between gap-4 text-forest">
+                    <span>4 buketter</span>
+                    <span className="font-display text-xl">{p.four}</span>
+                  </p>
+                  <p className="mt-1 flex items-baseline justify-between gap-4 text-forest">
+                    <span>1 bukett</span>
+                    <span className="font-display text-xl">{p.one}</span>
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Quote */}
       <section className="bg-blush">
         <div className="mx-auto max-w-3xl px-6 py-20 text-center sm:py-24">
           <p className="font-display text-3xl italic leading-snug text-forest sm:text-4xl">
-            ”Blommor till Livets alla ögonblick erbjuder Blomra. Så låt Blomra få dig att
-            blomra!”
+            Blomra erbjuder blommor till livets alla ögonblick. Så låt oss få dig att
+            blomra!
           </p>
         </div>
       </section>

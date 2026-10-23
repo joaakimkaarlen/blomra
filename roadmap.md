@@ -32,7 +32,8 @@
 - Swish & Grab-texten lyder nu "Välj dina blommor, swisha, plocka med dig & njut."; begravningsfotona är större (tre i bredd); "Ur Blomras verk" har ljusare cerisetton (cerise-soft); erbjudandekorten är klickbara och scrollar till rätt sektion.
 - Workshopdatum i "Aktuellt just nu": Höstkrans lör 24 okt kl. 14–16, Vinterkrans tors 19 nov kl. 17.30–19.30.
 - Ny sektion "Blomsterabonnemang" (#abonnemang, latte/champagne-bakgrund) med leveransinfo, betalningsvillkor och prisexempel (4 buketter: 995/1 435/1 895/3 025 kr). Leveranstexten flyttad dit från erbjudandekortet.
-- Sjätte erbjudandekortet "Presentkort" tillagt – rubriken är nu "Sex sätt att låta dig blomra".
+- Sjätte erbjudandekortet "Presentkort" tillagt.
+- Rubriken "Sex sätt att låta dig blomra" är borttagen; "Beställ alla dagar i veckan" är nu svart; Blomsterabonnemang ligger nu direkt efter begravningsdelen; citatet lyder "Blomra erbjuder blommor till livets alla ögonblick. Så låt oss få dig att blomra!".
 
 
 ## Öppna
