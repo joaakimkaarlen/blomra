@@ -697,7 +697,7 @@ function Index() {
               </div>
             </div>
           </div>
-          <div className="mt-6 rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
+          <div className="mt-6 rounded-sm border border-forest/10 bg-background p-6 sm:p-8">
             <p className="label-caps text-cerise">Prisexempel</p>
             <div className="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {priceExamples.map((p) => (
