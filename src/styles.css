@@ -77,6 +77,8 @@
   --blush: oklch(0.94 0.035 355);
   --blush-deep: oklch(0.88 0.07 355);
   --latte: oklch(0.93 0.03 80);
+  /* Moss green, matched to NCS S 7010-G10Y (#455449) */
+  --moss: oklch(0.429 0.026 153);
   --forest: oklch(0.29 0.062 160);
   --forest-deep: oklch(0.22 0.05 160);
   --forest-foreground: oklch(0.97 0.012 350);
