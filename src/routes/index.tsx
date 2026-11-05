@@ -159,7 +159,16 @@ const works = [
   },
 ];
 
-const weddings = [
+type Wedding = {
+  src: { url: string };
+  alt: string;
+  caption: string;
+  w: number;
+  h: number;
+  credit?: string;
+};
+
+const weddings: Wedding[] = [
   {
     src: workBridesCascade,
     alt: "Brudbukett i kaskad med kalla, anthurium och sötvätt",
@@ -185,6 +194,7 @@ const weddings = [
     src: weddingAutumnRosor,
     alt: "Brudbukett med puderrosa rosor, persikofärgade nejlikor, torkade strån och eukalyptus, hållen i båda händerna",
     caption: "Brudbukett med höstens torkade & färska trädgårdsrosor",
+    credit: "Fotograf: Alice @greveholmphotography",
     w: 900,
     h: 1200,
   },
@@ -192,6 +202,7 @@ const weddings = [
     src: weddingCorsage,
     alt: "Corsage med aprikosfärgad nejlika, torkade strån och eukalyptus fäst på ett mörkt kavajslag",
     caption: "Matchande Corsage på mannens kavaj",
+    credit: "Fotograf: Alice @greveholmphotography",
     w: 900,
     h: 1200,
   },
@@ -559,14 +570,22 @@ function Index() {
           <div className="mt-12 grid gap-4 sm:grid-cols-3 sm:gap-5">
             {weddings.map((w) => (
               <figure key={w.caption}>
-                <img
-                  src={w.src.url}
-                  alt={w.alt}
-                  width={w.w}
-                  height={w.h}
-                  loading="lazy"
-                  className="w-full rounded-sm"
-                />
+                <div className="relative">
+                  <img
+                    src={w.src.url}
+                    alt={w.alt}
+                    width={w.w}
+                    height={w.h}
+                    loading="lazy"
+                    className="w-full rounded-sm"
+                  />
+                  {w.credit && (
+                    <p className="pointer-events-none absolute bottom-2 left-2 flex items-center gap-1 text-[0.7rem] font-medium leading-none text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.85),0_0_1px_rgba(0,0,0,0.9)]">
+                      <span aria-hidden="true">📷</span>
+                      <span>{w.credit}</span>
+                    </p>
+                  )}
+                </div>
                 <figcaption className="mt-3 text-[0.95rem] leading-snug text-muted-foreground">
                   {w.caption}
                 </figcaption>
