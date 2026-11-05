@@ -329,10 +329,16 @@ function Index() {
               <li>
                 <div className="flex items-baseline justify-between gap-4">
                   <span>Vinter- och julkrans</span>
-                  <span className="font-display text-lg">619 kr</span>
+                  <span className="font-display text-lg">595 kr</span>
                 </div>
                 <p className="mt-0.5 text-sm text-muted-foreground">
                   Torsdag 19 november kl. 17.30–19.30
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Lördag 21 november kl. 13–15
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Söndag 29 november (1:a advent) kl. 13–15
                 </p>
               </li>
             </ul>
@@ -373,9 +379,17 @@ function Index() {
                 </li>
                 <li className="flex items-baseline justify-between gap-4">
                   <span>Vinter- och julkrans</span>
-                  <span className="font-display text-xl">619 kr</span>
+                  <span className="font-display text-xl">595 kr</span>
                 </li>
               </ul>
+              <p className="mt-3 text-sm text-blush/80">
+                Vinter- och julkrans: torsdag 19 november kl. 17.30–19.30, lördag 21
+                november kl. 13–15 samt söndag 29 november (1:a advent) kl. 13–15.
+              </p>
+              <p className="mt-3 text-sm text-blush/80">
+                Inga förkunskaper krävs. Allt material är förberett och jag visar er hur
+                man gör, längs hela vägen.
+              </p>
             </div>
             <a
               href="#kontakt"
