@@ -35,6 +35,7 @@
 - Sjätte erbjudandekortet "Presentkort" tillagt.
 - Rubriken "Sex sätt att låta dig blomra" är borttagen; "Beställ alla dagar i veckan" är nu svart; Blomsterabonnemang ligger nu direkt efter begravningsdelen; citatet lyder "Blomra erbjuder blommor till livets alla ögonblick. Så låt oss få dig att blomra!".
 - Två nya bröllopsbilder inlagda i #brollop: "Brudbukett med höstens torkade & färska trädgårdsrosor" och "Matchande Corsage på mannens kavaj" (beskurna i samma 3:4-format som de övriga bröllopsfotona).
+- Blomsterabonnemang (#abonnemang): bakgrunden är nu mossgrön (NCS S 7010-G10Y, #455449) i stället för beige, med ljus text, och Theresias foto av ett inslaget blomsterbud ligger i höger kolumn med bildtexten "Exempel på blomsterbud."
 
 
 ## Öppna

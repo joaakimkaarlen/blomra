@@ -659,7 +659,7 @@ function Index() {
             </figure>
           </div>
           <div className="mt-12 grid gap-6 lg:grid-cols-2">
-            <div className="rounded-sm border border-forest/10 bg-background/95 p-6 sm:p-8">
+            <div className="rounded-sm border border-forest/10 bg-background p-6 sm:p-8">
               <p className="label-caps text-cerise">Välj bukettstorlek</p>
               <dl className="mt-5 border-t border-border">
                 {subscriptionSizes.map((p) => (
@@ -673,7 +673,7 @@ function Index() {
                 ))}
               </dl>
             </div>
-            <div className="rounded-sm border border-forest/10 bg-background/95 p-6 sm:p-8">
+            <div className="rounded-sm border border-forest/10 bg-background p-6 sm:p-8">
               <p className="label-caps text-cerise">Betalningsvillkor</p>
               <div className="mt-4 space-y-3 text-forest/90">
                 <p>Du väljer själv det betalningsalternativ som passar dig bäst.</p>
