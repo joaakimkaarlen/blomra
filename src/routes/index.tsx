@@ -100,13 +100,6 @@ const offerings: Offering[] = [
   },
 ];
 
-const subscriptionSizes = [
-  { label: "Liten", price: "259 kr" },
-  { label: "Mellan", price: "379 kr" },
-  { label: "Stor", price: "499 kr" },
-  { label: "Lyx", price: "795 kr" },
-];
-
 const priceExamples = [
   { label: "Bukett Liten", four: "995 kr", one: "259 kr" },
   { label: "Bukett Mellan", four: "1 435 kr", one: "379 kr" },
@@ -663,7 +656,7 @@ function Index() {
                 tillkommer fraktkostnad. Fri leverans inom Bara tätort.
               </p>
             </div>
-            <figure className="mx-auto w-full max-w-sm lg:max-w-md">
+            <figure className="mx-auto w-full max-w-[15rem] lg:max-w-[17rem]">
               <img
                 src={abonnemangBud.url}
                 alt="Blomsterbud inslaget i kraftpapper med vinrött silkespapper och ett BLOMRA-kort"
@@ -677,46 +670,7 @@ function Index() {
               </figcaption>
             </figure>
           </div>
-          <div className="mt-12 grid gap-6 lg:grid-cols-2">
-            <div className="rounded-sm border border-forest/10 bg-background p-6 sm:p-8">
-              <p className="label-caps text-cerise">Välj bukettstorlek</p>
-              <dl className="mt-5 border-t border-border">
-                {subscriptionSizes.map((p) => (
-                  <div
-                    key={p.label}
-                    className="flex items-baseline justify-between gap-6 border-b border-border py-2.5"
-                  >
-                    <dt className="label-caps text-forest">{p.label}</dt>
-                    <dd className="font-display text-xl text-forest">{p.price}</dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-            <div className="rounded-sm border border-forest/10 bg-background p-6 sm:p-8">
-              <p className="label-caps text-cerise">Betalningsvillkor</p>
-              <div className="mt-4 space-y-3 text-forest/90">
-                <p>Du väljer själv det betalningsalternativ som passar dig bäst.</p>
-                <p>
-                  Betala för fyra buketter i förskott till ett förmånligt upplägg,
-                  eller välj att betala inför varje enskild leverans. Betalningen
-                  sker oavsett alltid i förskott, senast 5 dagar före planerad
-                  leverans eller upphämtning.
-                </p>
-                <p>
-                  Ingen bindningstid – jag fortsätter att skicka faktura och
-                  leverera tills ni aktivt meddelar att ni vill avsluta
-                  prenumerationen, vilket måste göras 5 dagar innan nästa leverans.
-                </p>
-                <p>
-                  Om ni av någon anledning inte är hemma när buketten ska hämtas
-                  eller levereras – till exempel om ni är iväg och reser – kan ni
-                  minst 3 dagar innan pausa buketten, eller meddela att den ska
-                  överlåtas till någon ni känner.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="mt-6 rounded-sm border border-forest/10 bg-background p-6 sm:p-8">
+          <div className="mt-12 rounded-sm border border-forest/10 bg-background p-6 sm:p-8">
             <p className="label-caps text-cerise">Prisexempel</p>
             <div className="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {priceExamples.map((p) => (
