@@ -37,6 +37,7 @@
 - Två nya bröllopsbilder inlagda i #brollop: "Brudbukett med höstens torkade & färska trädgårdsrosor" och "Matchande Corsage på mannens kavaj" (beskurna i samma 3:4-format som de övriga bröllopsfotona).
 - Blomsterabonnemang (#abonnemang): bakgrunden är nu mossgrön (NCS S 7010-G10Y, #455449) i stället för beige, med ljus text, och Theresias foto av ett inslaget blomsterbud ligger i höger kolumn med bildtexten "Exempel på blomsterbud."
 - Fotograftering "📷 Fotograf: Alice @greveholmphotography" i liten vit text längst ner till vänster på de två nya bröllopsfotona (höstens trädgårdsrosor + corsage), på en mörk diskret platta så texten syns även mot ljusa partier.
+- Blomsterabonnemang: blomsterbudsfotot är mindre, "Välj bukettstorlek" är borttaget (dubblade prisexemplen), och Betalningsvillkor ligger nu under Prisexempel i vit text direkt på den mossgröna bakgrunden i stället för i en vit ruta.
 
 
 ## Öppna
