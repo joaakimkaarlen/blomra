@@ -688,6 +688,29 @@ function Index() {
               ))}
             </div>
           </div>
+          <div className="mt-12 border-t border-primary-foreground/25 pt-8">
+            <p className="label-caps text-blush-deep">Betalningsvillkor</p>
+            <div className="mt-4 max-w-3xl space-y-3 text-primary-foreground/85">
+              <p>Du väljer själv det betalningsalternativ som passar dig bäst.</p>
+              <p>
+                Betala för fyra buketter i förskott till ett förmånligt upplägg,
+                eller välj att betala inför varje enskild leverans. Betalningen
+                sker oavsett alltid i förskott, senast 5 dagar före planerad
+                leverans eller upphämtning.
+              </p>
+              <p>
+                Ingen bindningstid – jag fortsätter att skicka faktura och
+                leverera tills ni aktivt meddelar att ni vill avsluta
+                prenumerationen, vilket måste göras 5 dagar innan nästa leverans.
+              </p>
+              <p>
+                Om ni av någon anledning inte är hemma när buketten ska hämtas
+                eller levereras – till exempel om ni är iväg och reser – kan ni
+                minst 3 dagar innan pausa buketten, eller meddela att den ska
+                överlåtas till någon ni känner.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
