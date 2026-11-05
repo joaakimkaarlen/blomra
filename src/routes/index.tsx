@@ -18,6 +18,7 @@ import workPastelBouquet from "@/assets/work-pastel-bouquet.jpg.asset.json";
 import weddingAutumnRosor from "@/assets/wedding-autumn-rosor.jpg.asset.json";
 import weddingCorsage from "@/assets/wedding-corsage.jpg.asset.json";
 import workshopHostkrans from "@/assets/workshop-hostkrans.jpg.asset.json";
+import abonnemangBud from "@/assets/abonnemang-blomsterbud.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -625,23 +626,40 @@ function Index() {
       </section>
 
       {/* Blomsterabonnemang */}
-      <section id="abonnemang" className="bg-latte">
+      <section id="abonnemang" className="bg-moss">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
-          <p className="label-caps text-cerise">Blomsterabonnemang</p>
-          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
-            Förgyll hemmet med en vacker bukett
-          </h2>
-          <p className="mt-5 max-w-2xl text-muted-foreground">
-            Varje vecka, varannan vecka eller en gång i månaden – beroende på vad
-            som passar dig eller den personen du överraskar. Floristen skapar
-            bukett utifrån säsong med utvalda kvalitetsblommor.
-          </p>
-          <p className="mt-4 max-w-2xl text-muted-foreground">
-            Leverans/upphämtning sker på torsdagar samt fredagar. För leverans
-            tillkommer fraktkostnad. Fri leverans inom Bara tätort.
-          </p>
+          <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
+            <div>
+              <p className="label-caps text-blush-deep">Blomsterabonnemang</p>
+              <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-primary-foreground sm:text-5xl">
+                Förgyll hemmet med en vacker bukett
+              </h2>
+              <p className="mt-5 max-w-2xl text-primary-foreground/85">
+                Varje vecka, varannan vecka eller en gång i månaden – beroende på
+                vad som passar dig eller den personen du överraskar. Floristen
+                skapar bukett utifrån säsong med utvalda kvalitetsblommor.
+              </p>
+              <p className="mt-4 max-w-2xl text-primary-foreground/85">
+                Leverans/upphämtning sker på torsdagar samt fredagar. För leverans
+                tillkommer fraktkostnad. Fri leverans inom Bara tätort.
+              </p>
+            </div>
+            <figure className="mx-auto w-full max-w-sm lg:max-w-md">
+              <img
+                src={abonnemangBud.url}
+                alt="Blomsterbud inslaget i kraftpapper med vinrött silkespapper och ett BLOMRA-kort"
+                width={1634}
+                height={1920}
+                loading="lazy"
+                className="aspect-[5/6] w-full rounded-sm object-cover"
+              />
+              <figcaption className="mt-3 text-[0.95rem] leading-snug text-primary-foreground/80">
+                Exempel på blomsterbud.
+              </figcaption>
+            </figure>
+          </div>
           <div className="mt-12 grid gap-6 lg:grid-cols-2">
-            <div className="rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
+            <div className="rounded-sm border border-forest/10 bg-background/95 p-6 sm:p-8">
               <p className="label-caps text-cerise">Välj bukettstorlek</p>
               <dl className="mt-5 border-t border-border">
                 {subscriptionSizes.map((p) => (
@@ -655,7 +673,7 @@ function Index() {
                 ))}
               </dl>
             </div>
-            <div className="rounded-sm border border-forest/15 bg-background/70 p-6 sm:p-8">
+            <div className="rounded-sm border border-forest/10 bg-background/95 p-6 sm:p-8">
               <p className="label-caps text-cerise">Betalningsvillkor</p>
               <div className="mt-4 space-y-3 text-forest/90">
                 <p>Du väljer själv det betalningsalternativ som passar dig bäst.</p>
