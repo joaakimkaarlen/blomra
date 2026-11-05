@@ -580,7 +580,7 @@ function Index() {
                     className="w-full rounded-sm"
                   />
                   {w.credit && (
-                    <p className="pointer-events-none absolute bottom-2 left-2 flex items-center gap-1 text-[0.7rem] font-medium leading-none text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.85),0_0_1px_rgba(0,0,0,0.9)]">
+                    <p className="pointer-events-none absolute bottom-2 left-2 flex items-center gap-1 rounded-sm bg-forest-deep/65 px-1.5 py-1 text-[0.7rem] font-medium leading-none text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.85),0_0_1px_rgba(0,0,0,0.9)]">
                       <span aria-hidden="true">📷</span>
                       <span>{w.credit}</span>
                     </p>
