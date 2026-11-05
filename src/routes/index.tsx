@@ -370,6 +370,10 @@ function Index() {
               företagsevent, möhippor och alla andra tillfällen som förtjänar blommor
               och gemenskap.
             </p>
+            <p className="mt-4 max-w-md text-lg text-blush/80">
+              Inga förkunskaper krävs. Allt material är förberett och jag visar er hur man
+              gör, längs hela vägen.
+            </p>
             <div className="mt-8 max-w-md rounded-sm border border-blush/30 bg-forest-deep/50 p-6">
               <p className="label-caps text-blush-deep">Höstens workshops</p>
               <ul className="mt-3 space-y-2 text-blush">
@@ -382,14 +386,6 @@ function Index() {
                   <span className="font-display text-xl">595 kr</span>
                 </li>
               </ul>
-              <p className="mt-3 text-sm text-blush/80">
-                Vinter- och julkrans: torsdag 19 november kl. 17.30–19.30, lördag 21
-                november kl. 13–15 samt söndag 29 november (1:a advent) kl. 13–15.
-              </p>
-              <p className="mt-3 text-sm text-blush/80">
-                Inga förkunskaper krävs. Allt material är förberett och jag visar er hur
-                man gör, längs hela vägen.
-              </p>
             </div>
             <a
               href="#kontakt"
