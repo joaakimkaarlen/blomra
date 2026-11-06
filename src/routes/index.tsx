@@ -317,7 +317,7 @@ function Index() {
           </div>
           <a
             href="#workshops"
-            className="mt-10 block w-full max-w-md rounded-sm border border-burgundy/25 bg-petal p-3 text-left shadow-sm transition-colors hover:border-burgundy"
+            className="mt-10 block w-full max-w-md rounded-sm border border-burgundy/25 stripes-burgundy p-3 text-left shadow-sm transition-colors hover:border-burgundy"
           >
             <div className="rounded-sm bg-blush/95 p-5">
               <p className="label-caps text-burgundy">Aktuellt just nu</p>
