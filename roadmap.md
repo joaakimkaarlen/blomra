@@ -38,6 +38,7 @@
 - Blomsterabonnemang (#abonnemang): bakgrunden är nu mossgrön (NCS S 7010-G10Y, #455449) i stället för beige, med ljus text, och Theresias foto av ett inslaget blomsterbud ligger i höger kolumn med bildtexten "Exempel på blomsterbud."
 - Fotograftering "📷 Fotograf: Alice @greveholmphotography" i liten vit text längst ner till vänster på de två nya bröllopsfotona (höstens trädgårdsrosor + corsage), på en mörk diskret platta så texten syns även mot ljusa partier.
 - Blomsterabonnemang: blomsterbudsfotot är mindre, "Välj bukettstorlek" är borttaget (dubblade prisexemplen), och Betalningsvillkor ligger nu under Prisexempel i vit text direkt på den mossgröna bakgrunden i stället för i en vit ruta.
+- "Aktuellt just nu"-kortet och Workshops & event har randig bakgrund i rosa och burgundy (vågrika lodräta ränder, burgundy #6E1F33 på rosa #F0A3B5); texten ligger på ljusrosa paneler så den är lättläst.
 
 
 ## Öppna
