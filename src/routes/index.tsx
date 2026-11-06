@@ -593,7 +593,7 @@ function Index() {
       </section>
 
       {/* Begravning */}
-      <section id="begravning" className="bg-blush">
+      <section id="begravning" className="bg-moss">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <p className="label-caps text-cerise">Med omsorg & respekt</p>
           <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
@@ -604,7 +604,7 @@ function Index() {
             urndekorationer och buketter med omsorg – personligt formade efter
             minnet av den som gått bort.
           </p>
-          <div className="mt-5 max-w-2xl space-y-4 text-muted-foreground">
+          <div className="mt-5 max-w-2xl space-y-4 text-primary-foreground/85">
             <p>
               Du kan beställa dina begravningsblommor direkt hos mig som florist –
               du behöver alltså inte gå via en begravningsbyrå. Att låta
@@ -632,7 +632,7 @@ function Index() {
                   loading="lazy"
                   className="w-full rounded-sm"
                 />
-                <figcaption className="mt-3 text-[0.95rem] leading-snug text-muted-foreground">
+                <figcaption className="mt-3 text-[0.95rem] leading-snug text-primary-foreground/80">
                   {f.caption}
                 </figcaption>
               </figure>
@@ -642,20 +642,20 @@ function Index() {
       </section>
 
       {/* Blomsterabonnemang */}
-      <section id="abonnemang" className="bg-moss">
+      <section id="abonnemang" className="bg-blush">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
             <div>
-              <p className="label-caps text-blush-deep">Blomsterabonnemang</p>
-              <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-primary-foreground sm:text-5xl">
+              <p className="label-caps text-cerise">Blomsterabonnemang</p>
+              <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
                 Förgyll hemmet med en vacker bukett
               </h2>
-              <p className="mt-5 max-w-2xl text-primary-foreground/85">
+              <p className="mt-5 max-w-2xl text-muted-foreground">
                 Varje vecka, varannan vecka eller en gång i månaden – beroende på
                 vad som passar dig eller den personen du överraskar. Floristen
                 skapar bukett utifrån säsong med utvalda kvalitetsblommor.
               </p>
-              <p className="mt-4 max-w-2xl text-primary-foreground/85">
+              <p className="mt-4 max-w-2xl text-muted-foreground">
                 Leverans/upphämtning sker på torsdagar samt fredagar. För leverans
                 tillkommer fraktkostnad. Fri leverans inom Bara tätort.
               </p>
@@ -669,7 +669,7 @@ function Index() {
                 loading="lazy"
                 className="aspect-[5/6] w-full rounded-sm object-cover"
               />
-              <figcaption className="mt-3 text-[0.95rem] leading-snug text-primary-foreground/80">
+              <figcaption className="mt-3 text-[0.95rem] leading-snug text-muted-foreground">
                 Exempel på blomsterbud.
               </figcaption>
             </figure>
@@ -692,9 +692,9 @@ function Index() {
               ))}
             </div>
           </div>
-          <div className="mt-12 border-t border-primary-foreground/25 pt-8">
-            <p className="label-caps text-blush-deep">Betalningsvillkor</p>
-            <div className="mt-4 max-w-3xl space-y-3 text-primary-foreground/85">
+          <div className="mt-12 border-t border-forest/15 pt-8">
+            <p className="label-caps text-cerise">Betalningsvillkor</p>
+            <div className="mt-4 max-w-3xl space-y-3 text-muted-foreground">
               <p>Du väljer själv det betalningsalternativ som passar dig bäst.</p>
               <p>
                 Betala för fyra buketter i förskott till ett förmånligt upplägg,
