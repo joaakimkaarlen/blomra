@@ -40,6 +40,8 @@
 - Blomsterabonnemang: blomsterbudsfotot är mindre, "Välj bukettstorlek" är borttaget (dubblade prisexemplen), och Betalningsvillkor ligger nu under Prisexempel i vit text direkt på den mossgröna bakgrunden i stället för i en vit ruta.
 - "Aktuellt just nu"-kortet och Workshops & event har randig bakgrund i rosa och burgundy (vågrika lodräta ränder, burgundy #6E1F33 på rosa #F0A3B5); texten ligger på ljusrosa paneler så den är lättläst.
 - Bakgrunderna i Begravning och Blomsterabonnemang är bytta: Begravning har nu mossgrön bakgrund med ljus text, Blomsterabonnemang har ljusrosa bakgrund med mörk text.
+- Workshops: Theresias julkrans (frilagd bild) ligger nu ovanför höstkransfotot på den randiga bakgrunden.
+- Blomsterabonnemang: fotot av buketten i vitt och prickigt papper ligger nu bredvid blomsterbudsfotot, båda i samma storlek.
 
 
 ## Öppna
