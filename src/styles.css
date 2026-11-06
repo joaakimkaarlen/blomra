@@ -50,6 +50,8 @@
   --color-blush-deep: var(--blush-deep);
   --color-latte: var(--latte);
   --color-moss: var(--moss);
+  --color-burgundy: var(--burgundy);
+  --color-petal: var(--petal);
   --color-forest: var(--forest);
   --color-forest-deep: var(--forest-deep);
   --color-forest-foreground: var(--forest-foreground);
@@ -80,6 +82,9 @@
   --latte: oklch(0.93 0.03 80);
   /* Moss green, matched to NCS S 7010-G10Y (#455449) */
   --moss: oklch(0.429 0.026 153);
+  /* Burgundy & petal pink, from Theresia's stripe inspiration */
+  --burgundy: oklch(0.371 0.112 9);
+  --petal: oklch(0.795 0.094 4);
   --forest: oklch(0.29 0.062 160);
   --forest-deep: oklch(0.22 0.05 160);
   --forest-foreground: oklch(0.97 0.012 350);
@@ -161,6 +166,12 @@
     ),
     radial-gradient(40% 38% at 88% 88%, var(--color-secondary) 0%, transparent 70%);
   background-color: var(--color-background);
+}
+
+@utility stripes-burgundy {
+  background-color: var(--color-petal);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='200' viewBox='0 0 120 200'%3E%3Cg fill='none' stroke='%236E1F33' stroke-width='56'%3E%3Cpath d='M30 0C55 33 55 67 30 100S5 167 30 200'/%3E%3Cpath d='M-90 0C-65 33 -65 67 -90 100S-115 167 -90 200'/%3E%3Cpath d='M150 0C175 33 175 67 150 100S125 167 150 200'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 120px 200px;
 }
 
 @utility label-caps {

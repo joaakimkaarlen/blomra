@@ -317,44 +317,48 @@ function Index() {
           </div>
           <a
             href="#workshops"
-            className="mt-10 block w-full max-w-md rounded-sm border border-cerise/30 bg-background/80 p-6 text-left transition-colors hover:border-cerise"
+            className="mt-10 block w-full max-w-md rounded-sm border border-burgundy/25 bg-petal p-3 text-left shadow-sm transition-colors hover:border-burgundy"
           >
-            <p className="label-caps text-cerise">Aktuellt just nu</p>
-            <p className="mt-2 font-display text-2xl text-forest">Höstens workshops</p>
-            <ul className="mt-3 space-y-3 text-forest">
-              <li>
-                <div className="flex items-baseline justify-between gap-4">
-                  <span>Höstkrans</span>
-                  <span className="font-display text-lg">619 kr</span>
-                </div>
-                <p className="mt-0.5 text-sm text-muted-foreground">
-                  Lördag 24 oktober kl. 14–16
-                </p>
-              </li>
-              <li>
-                <div className="flex items-baseline justify-between gap-4">
-                  <span>Vinter- och julkrans</span>
-                  <span className="font-display text-lg">595 kr</span>
-                </div>
-                <p className="mt-0.5 text-sm text-muted-foreground">
-                  Torsdag 19 november kl. 17.30–19.30
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  Lördag 21 november kl. 13–15
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  Söndag 29 november (1:a advent) kl. 13–15
-                </p>
-              </li>
-            </ul>
-            <p className="mt-4 text-sm text-muted-foreground">
-              Begränsat antal platser – dags att boka din plats!
-            </p>
+            <div className="rounded-sm bg-blush/95 p-5">
+              <p className="label-caps text-burgundy">Aktuellt just nu</p>
+              <p className="mt-2 font-display text-2xl text-burgundy">
+                Höstens workshops
+              </p>
+              <ul className="mt-3 space-y-3 text-burgundy">
+                <li>
+                  <div className="flex items-baseline justify-between gap-4">
+                    <span>Höstkrans</span>
+                    <span className="font-display text-lg">619 kr</span>
+                  </div>
+                  <p className="mt-0.5 text-sm text-burgundy/70">
+                    Lördag 24 oktober kl. 14–16
+                  </p>
+                </li>
+                <li>
+                  <div className="flex items-baseline justify-between gap-4">
+                    <span>Vinter- och julkrans</span>
+                    <span className="font-display text-lg">595 kr</span>
+                  </div>
+                  <p className="mt-0.5 text-sm text-burgundy/70">
+                    Torsdag 19 november kl. 17.30–19.30
+                  </p>
+                  <p className="text-sm text-burgundy/70">
+                    Lördag 21 november kl. 13–15
+                  </p>
+                  <p className="text-sm text-burgundy/70">
+                    Söndag 29 november (1:a advent) kl. 13–15
+                  </p>
+                </li>
+              </ul>
+              <p className="mt-4 text-sm text-burgundy/70">
+                Begränsat antal platser – dags att boka din plats!
+              </p>
+            </div>
           </a>
         </div>
       </section>
       {/* Workshops */}
-      <section id="workshops" className="bg-forest text-forest-foreground">
+      <section id="workshops" className="stripes-burgundy text-burgundy">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-2">
           <img
             src={workshopHostkrans.url}
@@ -362,24 +366,24 @@ function Index() {
             width={1440}
             height={1920}
             loading="lazy"
-            className="aspect-square w-full rounded-sm object-cover"
+            className="aspect-square w-full rounded-sm object-cover shadow-lg ring-1 ring-burgundy/20"
           />
-          <div>
-            <p className="label-caps text-blush-deep">Workshops & event</p>
-            <h2 className="mt-4 font-display text-4xl leading-tight sm:text-5xl">
+          <div className="rounded-sm bg-blush/95 p-8 sm:p-10">
+            <p className="label-caps text-cerise">Workshops & event</p>
+            <h2 className="mt-4 font-display text-4xl leading-tight text-burgundy sm:text-5xl">
               Binda tillsammans, bubbel & tilltugg ingår
             </h2>
-            <p className="mt-6 max-w-md text-lg text-blush/80">
+            <p className="mt-6 max-w-md text-lg text-burgundy/80">
               Jag erbjuder workshops där ni tillsammans med ett härligt gäng får lära er
               binda exempelvis kransar med mig. Perfekt för middagar med vänner,
               företagsevent, möhippor och alla andra tillfällen som förtjänar blommor
               och gemenskap.
             </p>
-            <p className="mt-4 max-w-md text-lg text-blush/80">
+            <p className="mt-4 max-w-md text-lg text-burgundy/80">
               Inga förkunskaper krävs. Allt material är förberett och jag visar er hur man
               gör, längs hela vägen.
             </p>
-            <div className="mt-8 max-w-md rounded-sm border border-blush/30 bg-forest-deep/50 p-6">
+            <div className="mt-8 max-w-md rounded-sm bg-burgundy p-6">
               <p className="label-caps text-blush-deep">Höstens workshops</p>
               <ul className="mt-3 space-y-2 text-blush">
                 <li className="flex items-baseline justify-between gap-4">
@@ -394,7 +398,7 @@ function Index() {
             </div>
             <a
               href="#kontakt"
-              className="mt-9 inline-block rounded-full bg-primary px-8 py-3 text-sm uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-blush hover:text-forest"
+              className="mt-9 inline-block rounded-full bg-primary px-8 py-3 text-sm uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-cerise-deep"
             >
               Boka en workshop
             </a>
