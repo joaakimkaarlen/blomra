@@ -595,11 +595,11 @@ function Index() {
       {/* Begravning */}
       <section id="begravning" className="bg-moss">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
-          <p className="label-caps text-cerise">Med omsorg & respekt</p>
-          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-forest sm:text-5xl">
+          <p className="label-caps text-blush-deep">Med omsorg & respekt</p>
+          <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-primary-foreground sm:text-5xl">
             Begravning
           </h2>
-          <p className="mt-5 max-w-2xl text-muted-foreground">
+          <p className="mt-5 max-w-2xl text-primary-foreground/85">
             Att ta avsked är svårt. Skapar kistdekorationer, kransar,
             urndekorationer och buketter med omsorg – personligt formade efter
             minnet av den som gått bort.
