@@ -19,6 +19,8 @@ import weddingAutumnRosor from "@/assets/wedding-autumn-rosor.jpg.asset.json";
 import weddingCorsage from "@/assets/wedding-corsage.jpg.asset.json";
 import workshopHostkrans from "@/assets/workshop-hostkrans.jpg.asset.json";
 import abonnemangBud from "@/assets/abonnemang-blomsterbud.jpg.asset.json";
+import abonnemangBouquet from "@/assets/abonnemang-bouquet.jpg.asset.json";
+import workshopJulkrans from "@/assets/workshop-julkrans.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -360,14 +362,24 @@ function Index() {
       {/* Workshops */}
       <section id="workshops" className="stripes-burgundy text-burgundy">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-2">
-          <img
-            src={workshopHostkrans.url}
-            alt="Händer som binder höstkrans med eukalyptus, hydrangea och ljung på ett dukat workshopbord"
-            width={1440}
-            height={1920}
-            loading="lazy"
-            className="aspect-square w-full rounded-sm object-cover shadow-lg ring-1 ring-burgundy/20"
-          />
+          <div className="flex flex-col items-center gap-6">
+            <img
+              src={workshopJulkrans.url}
+              alt="Julkrans med barrkvistar, eukalyptus, kottar, torkade apelsinskivor och en stor vinröd sidenros med hängande band"
+              width={1080}
+              height={1080}
+              loading="lazy"
+              className="w-full max-w-[20rem] rounded-sm object-contain drop-shadow-lg"
+            />
+            <img
+              src={workshopHostkrans.url}
+              alt="Händer som binder höstkrans med eukalyptus, hydrangea och ljung på ett dukat workshopbord"
+              width={1440}
+              height={1920}
+              loading="lazy"
+              className="aspect-square w-full rounded-sm object-cover shadow-lg ring-1 ring-burgundy/20"
+            />
+          </div>
           <div className="rounded-sm bg-blush/95 p-8 sm:p-10">
             <p className="label-caps text-cerise">Workshops & event</p>
             <h2 className="mt-4 font-display text-4xl leading-tight text-burgundy sm:text-5xl">
@@ -660,19 +672,31 @@ function Index() {
                 tillkommer fraktkostnad. Fri leverans inom Bara tätort.
               </p>
             </div>
-            <figure className="mx-auto w-full max-w-[15rem] lg:max-w-[17rem]">
-              <img
-                src={abonnemangBud.url}
-                alt="Blomsterbud inslaget i kraftpapper med vinrött silkespapper och ett BLOMRA-kort"
-                width={1634}
-                height={1920}
-                loading="lazy"
-                className="aspect-[5/6] w-full rounded-sm object-cover"
-              />
-              <figcaption className="mt-3 text-[0.95rem] leading-snug text-muted-foreground">
-                Exempel på blomsterbud.
-              </figcaption>
-            </figure>
+            <div className="mx-auto grid w-full max-w-[19rem] grid-cols-2 items-start gap-4 sm:max-w-[24rem]">
+              <figure>
+                <img
+                  src={abonnemangBud.url}
+                  alt="Blomsterbud inslaget i kraftpapper med vinrött silkespapper och ett BLOMRA-kort"
+                  width={1634}
+                  height={1920}
+                  loading="lazy"
+                  className="aspect-[5/6] w-full rounded-sm object-cover"
+                />
+                <figcaption className="mt-3 text-[0.95rem] leading-snug text-muted-foreground">
+                  Exempel på blomsterbud.
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src={abonnemangBouquet.url}
+                  alt="Bukett med mörkröda rosor och prydnadsgräs inslagen i vitt och prickigt papper med vinrött band, hållen i en hand"
+                  width={1440}
+                  height={1920}
+                  loading="lazy"
+                  className="aspect-[5/6] w-full rounded-sm object-cover"
+                />
+              </figure>
+            </div>
           </div>
           <div className="mt-12 rounded-sm border border-forest/10 bg-background p-6 sm:p-8">
             <p className="label-caps text-cerise">Prisexempel</p>
