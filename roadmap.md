@@ -42,6 +42,8 @@
 - Bakgrunderna i Begravning och Blomsterabonnemang är bytta: Begravning har nu mossgrön bakgrund med ljus text, Blomsterabonnemang har ljusrosa bakgrund med mörk text.
 - Workshops: Theresias julkrans (frilagd bild) ligger nu ovanför höstkransfotot på den randiga bakgrunden.
 - Blomsterabonnemang: fotot av buketten i vitt och prickigt papper ligger nu bredvid blomsterbudsfotot, båda i samma storlek.
+- Vinterkransen i workshop-stycket är nu nästan dubbelt så stor och fyller kolumnens bredd ovanför höstkransfotot.
+- Buketterna i Blomsterabonnemang är frilagda (bakgrunden borttagen) så de ligger direkt på den ljusrosa bakgrunden, och är lite större.
 
 
 ## Öppna
