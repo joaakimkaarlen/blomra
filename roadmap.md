@@ -52,3 +52,6 @@
 ## Öppna
 - (inga öppna punkter just nu)
 - [x] Workshops: vinterkrans större + toppjusterad mot rubriken; två nya kransar under (hand-krans i mitten, vänsterkantsfäst; roskrans längst ner)
+- [x] Aktuellt just nu: Höstkrans borttagen, (FULLBOKAD) på tors 19 nov
+- [x] Workshops: priser borttagna, Adventljusstake tillagd
+- [x] Sidfoten: ljusrosa bakgrund istället för mörkgrön
