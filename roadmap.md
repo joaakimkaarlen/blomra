@@ -44,6 +44,9 @@
 - Blomsterabonnemang: fotot av buketten i vitt och prickigt papper ligger nu bredvid blomsterbudsfotot, båda i samma storlek.
 - Vinterkransen i workshop-stycket är nu nästan dubbelt så stor och fyller kolumnens bredd ovanför höstkransfotot.
 - Buketterna i Blomsterabonnemang är frilagda (bakgrunden borttagen) så de ligger direkt på den ljusrosa bakgrunden, och är lite större.
+- Workshops: höstkransfotot är borttaget och vinterkransen är ännu större (740px, hela kolumnens bredd) så stycket visar bara kransen på den randiga bakgrunden.
+- Blomsterabonnemang: Betalningsvillkor är ett sneg mindre och i kursiv text.
+- Citatet "Blomra erbjuder blommor till livets alla ögonblick…" står nu på ceriserosa bakgrund med vit text; den ljusrosa bakgrunden slutar efter betalningsvillkoren.
 
 
 ## Öppna
