@@ -20,6 +20,8 @@ import weddingCorsage from "@/assets/wedding-corsage.jpg.asset.json";
 import abonnemangBud from "@/assets/abonnemang-blomsterbud-cut.png.asset.json";
 import abonnemangBouquet from "@/assets/abonnemang-bouquet-cut.png.asset.json";
 import workshopJulkrans from "@/assets/workshop-julkrans.png.asset.json";
+import workshopKransHand from "@/assets/workshop-krans-hand.png.asset.json";
+import workshopKransRosor from "@/assets/workshop-krans-rosor.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -360,15 +362,33 @@ function Index() {
       </section>
       {/* Workshops */}
       <section id="workshops" className="stripes-burgundy text-burgundy">
-        <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-2 lg:grid-cols-[1.25fr_0.75fr]">
-          <img
-            src={workshopJulkrans.url}
-            alt="Julkrans med barrkvistar, eukalyptus, kottar, torkade apelsinskivor och en stor vinröd sidenros med hängande band"
-            width={1080}
-            height={1080}
-            loading="lazy"
-            className="w-full rounded-sm object-contain drop-shadow-lg"
-          />
+        <div className="mx-auto grid max-w-7xl items-start gap-12 px-6 py-20 sm:py-28 md:grid-cols-2 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="flex flex-col gap-10">
+            <img
+              src={workshopJulkrans.url}
+              alt="Julkrans med barrkvistar, eukalyptus, kottar, torkade apelsinskivor och en stor vinröd sidenros med hängande band"
+              width={1080}
+              height={1080}
+              loading="lazy"
+              className="w-full max-w-xl rounded-sm object-contain drop-shadow-lg"
+            />
+            <img
+              src={workshopKransHand.url}
+              alt="Vinterkrans med barr, vinröda nejlikor, hortensia och mörkgrönt sidenband, hållen upp av en hand"
+              width={1440}
+              height={1920}
+              loading="lazy"
+              className="-ml-6 w-[85%] max-w-md self-start object-contain drop-shadow-lg"
+            />
+            <img
+              src={workshopKransRosor.url}
+              alt="Krans med rosa rosor, lila smultronblommor och mörkgrönt sidenband"
+              width={1440}
+              height={1920}
+              loading="lazy"
+              className="w-[85%] max-w-md self-center object-contain drop-shadow-lg"
+            />
+          </div>
           <div className="rounded-sm bg-blush/95 p-8 sm:p-10">
             <p className="label-caps text-cerise">Workshops & event</p>
             <h2 className="mt-4 font-display text-4xl leading-tight text-burgundy sm:text-5xl">
