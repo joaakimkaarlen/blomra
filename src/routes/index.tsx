@@ -361,25 +361,15 @@ function Index() {
       </section>
       {/* Workshops */}
       <section id="workshops" className="stripes-burgundy text-burgundy">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-[1.1fr_0.9fr]">
-          <div className="flex flex-col items-center gap-6">
-            <img
-              src={workshopJulkrans.url}
-              alt="Julkrans med barrkvistar, eukalyptus, kottar, torkade apelsinskivor och en stor vinröd sidenros med hängande band"
-              width={1080}
-              height={1080}
-              loading="lazy"
-              className="w-full rounded-sm object-contain drop-shadow-lg"
-            />
-            <img
-              src={workshopHostkrans.url}
-              alt="Händer som binder höstkrans med eukalyptus, hydrangea och ljung på ett dukat workshopbord"
-              width={1440}
-              height={1920}
-              loading="lazy"
-              className="aspect-square w-full rounded-sm object-cover shadow-lg ring-1 ring-burgundy/20"
-            />
-          </div>
+        <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-2 lg:grid-cols-[1.25fr_0.75fr]">
+          <img
+            src={workshopJulkrans.url}
+            alt="Julkrans med barrkvistar, eukalyptus, kottar, torkade apelsinskivor och en stor vinröd sidenros med hängande band"
+            width={1080}
+            height={1080}
+            loading="lazy"
+            className="w-full rounded-sm object-contain drop-shadow-lg"
+          />
           <div className="rounded-sm bg-blush/95 p-8 sm:p-10">
             <p className="label-caps text-cerise">Workshops & event</p>
             <h2 className="mt-4 font-display text-4xl leading-tight text-burgundy sm:text-5xl">
@@ -716,7 +706,7 @@ function Index() {
           </div>
           <div className="mt-12 border-t border-forest/15 pt-8">
             <p className="label-caps text-cerise">Betalningsvillkor</p>
-            <div className="mt-4 max-w-3xl space-y-3 text-muted-foreground">
+            <div className="mt-4 max-w-3xl space-y-3 text-sm italic text-muted-foreground">
               <p>Du väljer själv det betalningsalternativ som passar dig bäst.</p>
               <p>
                 Betala för fyra buketter i förskott till ett förmånligt upplägg,
@@ -741,9 +731,9 @@ function Index() {
       </section>
 
       {/* Quote */}
-      <section className="bg-blush">
+      <section className="bg-cerise">
         <div className="mx-auto max-w-3xl px-6 py-20 text-center sm:py-24">
-          <p className="font-display text-3xl italic leading-snug text-forest sm:text-4xl">
+          <p className="font-display text-3xl italic leading-snug text-primary-foreground sm:text-4xl">
             Blomra erbjuder blommor till livets alla ögonblick. Så låt oss få dig att
             blomra!
           </p>
