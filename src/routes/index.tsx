@@ -361,7 +361,7 @@ function Index() {
       </section>
       {/* Workshops */}
       <section id="workshops" className="stripes-burgundy text-burgundy">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-2">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 sm:py-28 md:grid-cols-[1.1fr_0.9fr]">
           <div className="flex flex-col items-center gap-6">
             <img
               src={workshopJulkrans.url}
@@ -369,7 +369,7 @@ function Index() {
               width={1080}
               height={1080}
               loading="lazy"
-              className="w-full max-w-[20rem] rounded-sm object-contain drop-shadow-lg"
+              className="w-full rounded-sm object-contain drop-shadow-lg"
             />
             <img
               src={workshopHostkrans.url}
