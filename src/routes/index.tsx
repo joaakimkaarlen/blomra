@@ -17,7 +17,6 @@ import workRoseBox from "@/assets/work-rose-box.jpg.asset.json";
 import workPastelBouquet from "@/assets/work-pastel-bouquet.jpg.asset.json";
 import weddingAutumnRosor from "@/assets/wedding-autumn-rosor.jpg.asset.json";
 import weddingCorsage from "@/assets/wedding-corsage.jpg.asset.json";
-import workshopHostkrans from "@/assets/workshop-hostkrans.jpg.asset.json";
 import abonnemangBud from "@/assets/abonnemang-blomsterbud-cut.png.asset.json";
 import abonnemangBouquet from "@/assets/abonnemang-bouquet-cut.png.asset.json";
 import workshopJulkrans from "@/assets/workshop-julkrans.png.asset.json";
