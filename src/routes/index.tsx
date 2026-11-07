@@ -18,8 +18,8 @@ import workPastelBouquet from "@/assets/work-pastel-bouquet.jpg.asset.json";
 import weddingAutumnRosor from "@/assets/wedding-autumn-rosor.jpg.asset.json";
 import weddingCorsage from "@/assets/wedding-corsage.jpg.asset.json";
 import workshopHostkrans from "@/assets/workshop-hostkrans.jpg.asset.json";
-import abonnemangBud from "@/assets/abonnemang-blomsterbud.jpg.asset.json";
-import abonnemangBouquet from "@/assets/abonnemang-bouquet.jpg.asset.json";
+import abonnemangBud from "@/assets/abonnemang-blomsterbud-cut.png.asset.json";
+import abonnemangBouquet from "@/assets/abonnemang-bouquet-cut.png.asset.json";
 import workshopJulkrans from "@/assets/workshop-julkrans.png.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -672,31 +672,29 @@ function Index() {
                 tillkommer fraktkostnad. Fri leverans inom Bara tätort.
               </p>
             </div>
-            <div className="mx-auto grid w-full max-w-[19rem] grid-cols-2 items-start gap-4 sm:max-w-[24rem]">
-              <figure>
+            <figure className="mx-auto w-full max-w-[24rem] sm:max-w-[29rem]">
+              <div className="flex items-end justify-center gap-1">
                 <img
                   src={abonnemangBud.url}
                   alt="Blomsterbud inslaget i kraftpapper med vinrött silkespapper och ett BLOMRA-kort"
-                  width={1634}
+                  width={1600}
                   height={1920}
                   loading="lazy"
-                  className="aspect-[5/6] w-full rounded-sm object-cover"
+                  className="w-1/2 drop-shadow-xl"
                 />
-                <figcaption className="mt-3 text-[0.95rem] leading-snug text-muted-foreground">
-                  Exempel på blomsterbud.
-                </figcaption>
-              </figure>
-              <figure>
                 <img
                   src={abonnemangBouquet.url}
-                  alt="Bukett med mörkröda rosor och prydnadsgräs inslagen i vitt och prickigt papper med vinrött band, hållen i en hand"
+                  alt="Bukett med mörkröda rosor och prydnadsgräs inslagen i vitt och prickigt papper med vinrött band"
                   width={1440}
-                  height={1920}
+                  height={1832}
                   loading="lazy"
-                  className="aspect-[5/6] w-full rounded-sm object-cover"
+                  className="w-1/2 drop-shadow-xl"
                 />
-              </figure>
-            </div>
+              </div>
+              <figcaption className="mt-4 text-center text-[0.95rem] leading-snug text-muted-foreground">
+                Exempel på blomsterbud.
+              </figcaption>
+            </figure>
           </div>
           <div className="mt-12 rounded-sm border border-forest/10 bg-background p-6 sm:p-8">
             <p className="label-caps text-cerise">Prisexempel</p>
