@@ -330,20 +330,12 @@ function Index() {
               <ul className="mt-3 space-y-3 text-burgundy">
                 <li>
                   <div className="flex items-baseline justify-between gap-4">
-                    <span>Höstkrans</span>
-                    <span className="font-display text-lg">619 kr</span>
-                  </div>
-                  <p className="mt-0.5 text-sm text-burgundy/70">
-                    Lördag 24 oktober kl. 14–16
-                  </p>
-                </li>
-                <li>
-                  <div className="flex items-baseline justify-between gap-4">
                     <span>Vinter- och julkrans</span>
                     <span className="font-display text-lg">595 kr</span>
                   </div>
                   <p className="mt-0.5 text-sm text-burgundy/70">
-                    Torsdag 19 november kl. 17.30–19.30
+                    Torsdag 19 november kl. 17.30–19.30{" "}
+                    <span className="font-medium uppercase tracking-wider">(Fullbokad)</span>
                   </p>
                   <p className="text-sm text-burgundy/70">
                     Lördag 21 november kl. 13–15
@@ -407,14 +399,9 @@ function Index() {
             <div className="mt-8 max-w-md rounded-sm bg-burgundy p-6">
               <p className="label-caps text-blush-deep">Höstens workshops</p>
               <ul className="mt-3 space-y-2 text-blush">
-                <li className="flex items-baseline justify-between gap-4">
-                  <span>Höstkrans</span>
-                  <span className="font-display text-xl">619 kr</span>
-                </li>
-                <li className="flex items-baseline justify-between gap-4">
-                  <span>Vinter- och julkrans</span>
-                  <span className="font-display text-xl">595 kr</span>
-                </li>
+                <li>Höstkrans</li>
+                <li>Vinter- och julkrans</li>
+                <li>Adventljusstake</li>
               </ul>
             </div>
             <a
@@ -863,7 +850,7 @@ function Index() {
         </div>
       </section>
 
-      <footer className="border-t border-border bg-forest-deep text-forest-foreground">
+      <footer className="border-t border-border bg-blush">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-8">
           <img
             src={logoAsset.url}
@@ -873,8 +860,8 @@ function Index() {
             loading="lazy"
             className="h-12 w-12 rounded-full bg-background p-1"
           />
-          <p className="label-caps text-blush/80">Blommor & upplevelser att minnas</p>
-          <p className="text-sm text-blush/60">© {new Date().getFullYear()} Blomra</p>
+          <p className="label-caps text-cerise">Blommor & upplevelser att minnas</p>
+          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Blomra</p>
         </div>
       </footer>
     </div>
