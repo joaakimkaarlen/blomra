@@ -51,3 +51,4 @@
 
 ## Öppna
 - (inga öppna punkter just nu)
+- [x] Workshops: vinterkrans större + toppjusterad mot rubriken; två nya kransar under (hand-krans i mitten, vänsterkantsfäst; roskrans längst ner)
