@@ -362,7 +362,7 @@ function Index() {
               width={1080}
               height={1080}
               loading="lazy"
-              className="w-full max-w-xl rounded-sm object-contain drop-shadow-lg"
+              className="w-full rounded-sm object-contain drop-shadow-lg"
             />
             <img
               src={workshopKransHand.url}
