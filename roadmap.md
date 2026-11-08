@@ -55,3 +55,4 @@
 - [x] Aktuellt just nu: Höstkrans borttagen, (FULLBOKAD) på tors 19 nov
 - [x] Workshops: priser borttagna, Adventljusstake tillagd
 - [x] Sidfoten: ljusrosa bakgrund istället för mörkgrön
+- [x] Aktuellt just nu: Adventljusstake egen workshop med sön 29 nov (1:a advent) kl. 13–15; datumet borttaget under Vinter- och julkrans
