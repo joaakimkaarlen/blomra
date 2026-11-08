@@ -12,6 +12,9 @@ import funeralWinter from "@/assets/funeral-winter.jpg.asset.json";
 import funeralBlue from "@/assets/funeral-blue.jpg.asset.json";
 import funeralUrn from "@/assets/funeral-urn-plain.jpg.asset.json";
 import funeralWhite from "@/assets/funeral-white.jpg.asset.json";
+import funeralStandingLarge from "@/assets/funeral-standing-large.jpg.asset.json";
+import funeralHandbouquet from "@/assets/funeral-handbouquet.jpg.asset.json";
+import funeralAutumnTable from "@/assets/funeral-autumn-table.jpg.asset.json";
 import workBridesCascade from "@/assets/work-brides-cascade.jpg.asset.json";
 import workRoseBox from "@/assets/work-rose-box.jpg.asset.json";
 import workPastelBouquet from "@/assets/work-pastel-bouquet.jpg.asset.json";
@@ -243,6 +246,30 @@ const funerals = [
     caption: "Ljust farväl – Liggande bukett",
     w: 900,
     h: 1200,
+    span: false,
+  },
+  {
+    src: funeralStandingLarge,
+    alt: "Stående arrangemang i pyramidform med dahlior, riddarsporre, rosor, prärieklocka och ormbunksblad i lila, rosa, persika och vitt",
+    caption: "Stående dekoration i lila, rosa & persika",
+    w: 1443,
+    h: 1920,
+    span: false,
+  },
+  {
+    src: funeralHandbouquet,
+    alt: "Handbukett med tre rosa rosor, cremefärgad zinnia, prydnadsgräs och ormbunksblad",
+    caption: "Handbukett med rosor, zinnia & prydnadsgräs",
+    w: 1440,
+    h: 1920,
+    span: false,
+  },
+  {
+    src: funeralAutumnTable,
+    alt: "Fylligt sensommararrangemang på bord med dahlior, ringblommor, eterneller, vita riddarsporre, rönnbär och prydnadsgräs",
+    caption: "Sensommararrangemang i gult, orange & vinrött",
+    w: 1440,
+    h: 1920,
     span: false,
   },
 ];
