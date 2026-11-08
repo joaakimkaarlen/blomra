@@ -56,3 +56,4 @@
 - [x] Workshops: priser borttagna, Adventljusstake tillagd
 - [x] Sidfoten: ljusrosa bakgrund istället för mörkgrön
 - [x] Aktuellt just nu: Adventljusstake egen workshop med sön 29 nov (1:a advent) kl. 13–15; datumet borttaget under Vinter- och julkrans
+- [x] Adventljusstake har tillägget "(krans eller rektangulär)" både i Aktuellt just nu och i Workshops & event
