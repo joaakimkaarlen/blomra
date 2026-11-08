@@ -53,7 +53,8 @@
 - (inga öppna punkter just nu)
 - [x] Workshops: vinterkrans större + toppjusterad mot rubriken; två nya kransar under (hand-krans i mitten, vänsterkantsfäst; roskrans längst ner)
 - [x] Aktuellt just nu: Höstkrans borttagen, (FULLBOKAD) på tors 19 nov
-- [x] Workshops: priser borttagna, Adventljusstake tillagd
+- [x] Workshops: priser borttagna, Adventsljusstake tillagd
 - [x] Sidfoten: ljusrosa bakgrund istället för mörkgrön
-- [x] Aktuellt just nu: Adventljusstake egen workshop med sön 29 nov (1:a advent) kl. 13–15; datumet borttaget under Vinter- och julkrans
-- [x] Adventljusstake har tillägget "(krans eller rektangulär)" både i Aktuellt just nu och i Workshops & event
+- [x] Aktuellt just nu: Adventsljusstake egen workshop med sön 29 nov (1:a advent) kl. 13–15; datumet borttaget under Vinter- och julkrans
+- [x] Adventsljusstake har tillägget "(krans eller rektangulär)" både i Aktuellt just nu och i Workshops & event
+- [x] Stavning: Adventljusstake -> Adventsljusstake (båda ställena); i Workshops & event är "(krans eller rektangulär)" mindre och workshoprubrikerna fetstilta

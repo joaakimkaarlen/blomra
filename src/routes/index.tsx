@@ -342,7 +342,7 @@ function Index() {
                   </p>
                 </li>
                 <li>
-                  <span>Adventljusstake</span>
+                  <span>Adventsljusstake</span>
                   <span className="text-burgundy/70"> (krans eller rektangulär)</span>
                   <p className="mt-0.5 text-sm text-burgundy/70">
                     Söndag 29 november (1:a advent) kl. 13–15
@@ -403,9 +403,12 @@ function Index() {
             <div className="mt-8 max-w-md rounded-sm bg-burgundy p-6">
               <p className="label-caps text-blush-deep">Höstens workshops</p>
               <ul className="mt-3 space-y-2 text-blush">
-                <li>Höstkrans</li>
-                <li>Vinter- och julkrans</li>
-                <li>Adventljusstake (krans eller rektangulär)</li>
+                <li className="font-bold">Höstkrans</li>
+                <li className="font-bold">Vinter- och julkrans</li>
+                <li className="font-bold">
+                  Adventsljusstake{" "}
+                  <span className="text-sm font-normal">(krans eller rektangulär)</span>
+                </li>
               </ul>
             </div>
             <a
