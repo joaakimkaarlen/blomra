@@ -340,7 +340,10 @@ function Index() {
                   <p className="text-sm text-burgundy/70">
                     Lördag 21 november kl. 13–15
                   </p>
-                  <p className="text-sm text-burgundy/70">
+                </li>
+                <li>
+                  <span>Adventljusstake</span>
+                  <p className="mt-0.5 text-sm text-burgundy/70">
                     Söndag 29 november (1:a advent) kl. 13–15
                   </p>
                 </li>
