@@ -57,3 +57,4 @@
 - [x] Sidfoten: ljusrosa bakgrund istället för mörkgrön
 - [x] Aktuellt just nu: Adventsljusstake egen workshop med sön 29 nov (1:a advent) kl. 13–15; datumet borttaget under Vinter- och julkrans
 - [x] Adventsljusstake har tillägget "(krans eller rektangulär)" både i Aktuellt just nu och i Workshops & event
+- [x] Stavning: Adventljusstake -> Adventsljusstake (båda ställena); i Workshops & event är "(krans eller rektangulär)" mindre och workshoprubrikerna fetstilta
