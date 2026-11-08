@@ -468,9 +468,9 @@ function Index() {
           </a>
         </div>
 
-        <div className="mt-12 grid gap-px overflow-hidden rounded-sm border border-border bg-border lg:grid-cols-6">
+        <div className="mt-12 grid gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-2 lg:grid-cols-6">
           {offerings.map((o, i) => {
-            const className = `group bg-background p-8 transition-colors hover:bg-blush/50 sm:p-10 ${o.span}`;
+            const className = `group bg-background p-8 transition-colors hover:bg-blush/50 sm:col-span-1 sm:p-10 ${o.span}`;
             const inner = (
               <>
                 <span className="label-caps text-cerise">0{i + 1}</span>
