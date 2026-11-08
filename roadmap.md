@@ -59,3 +59,4 @@
 - [x] Adventsljusstake har tillägget "(krans eller rektangulär)" både i Aktuellt just nu och i Workshops & event
 - [x] Stavning: Adventljusstake -> Adventsljusstake (båda ställena); i Workshops & event är "(krans eller rektangulär)" mindre och workshoprubrikerna fetstilta
 - [x] De sex erbjudandekorten ligger nu bredvid varandra (två i bredd på mindre skärm, tre på större) så man slipper bläddra långt ner; stilen i övrigt oförändrad
+- [x] Tre nya verk under Begravning: stående dekoration i lila/rosa/persika, handbukett med rosor/zinnia/prydnadsgräs, sensommararrangemang i gult/orange/vinrött (åtta foton totalt)
